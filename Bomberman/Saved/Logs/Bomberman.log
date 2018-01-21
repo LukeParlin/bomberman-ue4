@@ -1,0 +1,765 @@
+﻿Log file open, 01/21/18 19:31:22
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Bomberman
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1537493521) SRandInit(1537493521).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.178668
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Binaries/Win64/UE4Editor-Bomberman.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.21-19.31.24:460][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.21-19.31.24:460][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.21-19.31.24:473][  0]LogInit: Computer: DESKTOP-3HBJQFL
+[2018.01.21-19.31.24:473][  0]LogInit: User: Luke
+[2018.01.21-19.31.24:473][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.21-19.31.24:473][  0]LogInit: High frequency timer resolution =2.533207 MHz
+[2018.01.21-19.31.24:473][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.21-19.31.24:473][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.21-19.31.24:473][  0]LogMemory: Process Physical Memory: 272.57 MB used, 272.57 MB peak
+[2018.01.21-19.31.24:473][  0]LogMemory: Process Virtual Memory: 269.95 MB used, 269.95 MB peak
+[2018.01.21-19.31.24:473][  0]LogMemory: Physical Memory: 6479.59 MB used,  9823.33 MB free, 16302.92 MB total
+[2018.01.21-19.31.24:474][  0]LogMemory: Virtual Memory: 677.66 MB used,  9823.33 MB free, 134217728.00 MB total
+[2018.01.21-19.31.24:627][  0]LogInit: Using OS detected language (en-US).
+[2018.01.21-19.31.24:627][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.21-19.31.24:630][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.21-19.31.25:053][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.21-19.31.25:315][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.21-19.31.25:358][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.01.21-19.31.25:358][  0]LogD3D11RHI:       4055/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.21-19.31.25:363][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.01.21-19.31.25:363][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.21-19.31.25:365][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.21-19.31.25:366][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.21-19.31.25:366][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.21-19.31.25:372][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.21-19.31.25:372][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.01.21-19.31.25:372][  0]LogWindows: EnumDisplayDevices:
+[2018.01.21-19.31.25:372][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.01.21-19.31.25:372][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.21-19.31.25:372][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.21-19.31.25:372][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.21-19.31.25:372][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.01.21-19.31.25:372][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.21-19.31.25:372][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.21-19.31.25:372][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.01.21-19.31.25:397][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.21-19.31.25:418][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.21-19.31.25:418][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Intermediate/Shaders/WorkingDirectory/10032/).
+[2018.01.21-19.31.25:419][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luke/AppData/Local/Temp/UnrealShaderWorkingDir/6311E58A4BE2D85607EA39B3A665FE8A/'.
+[2018.01.21-19.31.25:419][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.21-19.31.26:442][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.21-19.31.26:503][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.21-19.31.26:570][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.21-19.31.26:626][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.21-19.31.26:680][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.21-19.31.26:748][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.21-19.31.26:815][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.21-19.31.26:887][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.21-19.31.26:943][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.21-19.31.26:998][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.21-19.31.27:071][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.21-19.31.27:138][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.21-19.31.27:205][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.21-19.31.27:270][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.21-19.31.27:402][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.21-19.31.27:402][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.21-19.31.27:458][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.21-19.31.27:504][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.21-19.31.27:614][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.21-19.31.27:650][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.21-19.31.27:725][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.21-19.31.27:804][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.21-19.31.27:874][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.21-19.31.27:936][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.21-19.31.27:936][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.21-19.31.28:480][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.21-19.31.28:560][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.21-19.31.28:560][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.21-19.31.28:560][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.21-19.31.28:560][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.21-19.31.28:560][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.21-19.31.28:560][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.21-19.31.28:581][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.21-19.31.28:593][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.21-19.31.28:605][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.21-19.31.28:606][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.21-19.31.28:606][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.21-19.31.28:606][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.21-19.31.29:019][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.21-19.31.29:436][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.21-19.31.29:488][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.21-19.31.29:488][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.21-19.31.29:488][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.21-19.31.29:488][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.21-19.31.29:488][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.21-19.31.29:514][  0]LogNetVersion: Bomberman , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2909264662)
+[2018.01.21-19.31.29:684][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.01.21-19.31.30:200][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.078550 seconds
+[2018.01.21-19.31.30:207][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.01.21-19.31.30:207][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.01.21-19.31.30:207][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.21-19.31.30:273][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.21-19.31.33:185][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.21-19.31.33:236][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.21-19.31.33:963][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.21-19.31.34:390][  0]SourceControl: Source control is disabled
+[2018.01.21-19.31.34:390][  0]SourceControl: Source control is disabled
+[2018.01.21-19.31.34:446][  0]SourceControl: Source control is disabled
+[2018.01.21-19.31.34:506][  0]SourceControl: Source control is disabled
+[2018.01.21-19.31.35:344][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.21-19.31.35:619][  0]LogOcInput: OculusInput pre-init called
+[2018.01.21-19.31.35:888][  0]LogEngine: Initializing Engine...
+[2018.01.21-19.31.35:891][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.21-19.31.36:112][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.21-19.31.36:112][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.21-19.31.36:235][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.21-19.31.36:247][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.21-19.31.36:263][  0]LogInit: FAudioDevice initialized.
+[2018.01.21-19.31.36:348][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.21-19.31.36:358][  0]LogInit: Texture streaming: Enabled
+[2018.01.21-19.31.36:454][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.21-19.31.36:593][  0]LogInit: Transaction tracking system initialized
+[2018.01.21-19.31.36:912][  0]BlueprintLog: New page: Editor Load
+[2018.01.21-19.31.37:950][  0]LocalizationService: Localization service is disabled
+[2018.01.21-19.31.38:797][  0]LogConsoleResponse: Display: 
+[2018.01.21-19.31.38:978][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/' took 0.01s
+[2018.01.21-19.31.38:978][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.21-19.31.38:978][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.21-19.31.38:978][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.21-19.31.40:319][  0]SourceControl: Source control is disabled
+[2018.01.21-19.31.40:320][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.18/FeaturePacks/StarterContent.upack)
+[2018.01.21-19.31.40:325][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.01.21-19.31.40:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.01.21-19.31.40:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.01.21-19.31.40:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.01.21-19.31.40:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.01.21-19.31.40:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.01.21-19.31.40:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.01.21-19.31.40:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.01.21-19.31.40:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.01.21-19.31.40:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.01.21-19.31.40:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.01.21-19.31.40:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.01.21-19.31.40:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.01.21-19.31.40:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.01.21-19.31.40:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.01.21-19.31.40:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.01.21-19.31.40:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.01.21-19.31.40:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.01.21-19.31.40:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Fire01.uasset"
+[2018.01.21-19.31.40:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.01.21-19.31.40:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.01.21-19.31.40:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.01.21-19.31.40:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Light01.uasset"
+[2018.01.21-19.31.40:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.01.21-19.31.40:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Light02.uasset"
+[2018.01.21-19.31.40:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.01.21-19.31.40:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.01.21-19.31.40:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.01.21-19.31.40:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.01.21-19.31.40:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.01.21-19.31.40:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.01.21-19.31.40:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.01.21-19.31.40:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.01.21-19.31.40:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.01.21-19.31.40:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Steam01.uasset"
+[2018.01.21-19.31.40:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.01.21-19.31.40:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.01.21-19.31.40:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.01.21-19.31.40:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.01.21-19.31.40:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.01.21-19.31.40:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.01.21-19.31.40:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.01.21-19.31.40:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.01.21-19.31.40:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.01.21-19.31.40:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.01.21-19.31.40:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.01.21-19.31.40:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.01.21-19.31.40:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.01.21-19.31.40:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.01.21-19.31.40:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.01.21-19.31.40:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.01.21-19.31.40:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.01.21-19.31.40:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.01.21-19.31.40:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.01.21-19.31.40:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.01.21-19.31.40:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.01.21-19.31.40:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.01.21-19.31.40:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Maps/StarterMap.umap"
+[2018.01.21-19.31.40:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.01.21-19.31.40:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.01.21-19.31.40:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.01.21-19.31.40:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.01.21-19.31.40:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.01.21-19.31.40:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.01.21-19.31.40:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.01.21-19.31.40:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.01.21-19.31.40:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.01.21-19.31.40:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.01.21-19.31.40:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.01.21-19.31.40:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.01.21-19.31.40:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.01.21-19.31.40:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.01.21-19.31.40:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.01.21-19.31.40:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.01.21-19.31.40:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.01.21-19.31.40:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.01.21-19.31.40:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.01.21-19.31.40:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.01.21-19.31.40:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.01.21-19.31.40:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.01.21-19.31.40:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.01.21-19.31.40:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.01.21-19.31.40:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.01.21-19.31.40:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.01.21-19.31.40:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.01.21-19.31.40:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.01.21-19.31.40:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.01.21-19.31.40:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.01.21-19.31.40:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.01.21-19.31.40:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.01.21-19.31.40:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.01.21-19.31.40:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.01.21-19.31.40:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.01.21-19.31.40:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.01.21-19.31.40:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.01.21-19.31.40:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.01.21-19.31.40:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.01.21-19.31.40:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.01.21-19.31.40:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.01.21-19.31.40:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.01.21-19.31.40:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.01.21-19.31.40:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.01.21-19.31.40:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.01.21-19.31.40:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.01.21-19.31.40:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.01.21-19.31.40:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.01.21-19.31.40:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.01.21-19.31.40:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.01.21-19.31.40:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.01.21-19.31.41:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.01.21-19.31.41:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.01.21-19.31.41:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.01.21-19.31.41:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.01.21-19.31.41:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.01.21-19.31.41:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.01.21-19.31.41:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.01.21-19.31.41:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.01.21-19.31.41:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.01.21-19.31.41:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.01.21-19.31.41:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.01.21-19.31.41:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.01.21-19.31.41:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.01.21-19.31.41:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.01.21-19.31.41:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Door.uasset"
+[2018.01.21-19.31.41:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.01.21-19.31.41:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.01.21-19.31.41:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.01.21-19.31.41:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.01.21-19.31.41:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.01.21-19.31.41:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.01.21-19.31.41:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.01.21-19.31.41:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.01.21-19.31.41:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.01.21-19.31.41:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.01.21-19.31.41:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.01.21-19.31.41:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.01.21-19.31.41:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.01.21-19.31.41:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.01.21-19.31.41:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.01.21-19.31.41:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.01.21-19.31.41:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.01.21-19.31.41:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.01.21-19.31.41:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.01.21-19.31.41:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.01.21-19.31.41:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.01.21-19.31.41:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.01.21-19.31.41:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.01.21-19.31.41:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.01.21-19.31.41:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.01.21-19.31.41:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.01.21-19.31.41:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.01.21-19.31.41:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.01.21-19.31.41:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.01.21-19.31.41:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.01.21-19.31.41:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.01.21-19.31.41:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.01.21-19.31.41:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.01.21-19.31.41:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.01.21-19.31.41:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.01.21-19.31.41:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.01.21-19.31.41:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.01.21-19.31.41:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.01.21-19.31.41:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.01.21-19.31.41:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.01.21-19.31.41:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.01.21-19.31.41:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.01.21-19.31.41:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.01.21-19.31.41:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.01.21-19.31.41:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.01.21-19.31.41:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.01.21-19.31.41:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.01.21-19.31.41:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.01.21-19.31.41:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.01.21-19.31.41:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.01.21-19.31.41:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.01.21-19.31.41:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.01.21-19.31.41:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.01.21-19.31.41:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.01.21-19.31.41:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.01.21-19.31.41:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.01.21-19.31.41:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.01.21-19.31.41:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.01.21-19.31.41:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.01.21-19.31.41:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.01.21-19.31.41:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.01.21-19.31.41:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.01.21-19.31.41:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.01.21-19.31.41:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.01.21-19.31.41:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.01.21-19.31.41:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.01.21-19.31.41:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.01.21-19.31.41:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.01.21-19.31.41:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.01.21-19.31.41:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.01.21-19.31.41:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.01.21-19.31.41:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.01.21-19.31.41:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.01.21-19.31.41:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.01.21-19.31.41:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.01.21-19.31.41:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.01.21-19.31.41:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.01.21-19.31.41:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.01.21-19.31.41:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.01.21-19.31.41:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.01.21-19.31.41:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.01.21-19.31.41:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.01.21-19.31.41:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.01.21-19.31.41:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.01.21-19.31.41:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.01.21-19.31.41:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.01.21-19.31.41:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.01.21-19.31.41:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.01.21-19.31.41:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.01.21-19.31.41:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.01.21-19.31.41:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.01.21-19.31.41:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.01.21-19.31.41:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.01.21-19.31.41:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.01.21-19.31.41:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.01.21-19.31.41:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.01.21-19.31.41:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.01.21-19.31.41:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.01.21-19.31.41:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.01.21-19.31.41:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.01.21-19.31.41:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.01.21-19.31.41:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.01.21-19.31.41:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.01.21-19.31.41:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.01.21-19.31.41:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.01.21-19.31.41:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.01.21-19.31.41:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.01.21-19.31.41:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.01.21-19.31.41:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.01.21-19.31.41:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.01.21-19.31.41:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.01.21-19.31.42:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.01.21-19.31.42:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.01.21-19.31.42:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.01.21-19.31.42:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.01.21-19.31.42:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.01.21-19.31.42:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.01.21-19.31.42:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.01.21-19.31.42:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.01.21-19.31.42:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.01.21-19.31.42:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.01.21-19.31.42:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.01.21-19.31.42:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.01.21-19.31.42:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.01.21-19.31.42:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.01.21-19.31.42:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.01.21-19.31.42:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.01.21-19.31.42:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.01.21-19.31.42:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.01.21-19.31.42:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.01.21-19.31.42:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.01.21-19.31.42:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.01.21-19.31.42:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.01.21-19.31.42:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.01.21-19.31.42:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.01.21-19.31.42:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.01.21-19.31.42:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.01.21-19.31.42:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.01.21-19.31.42:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.01.21-19.31.42:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.01.21-19.31.42:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.01.21-19.31.42:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.01.21-19.31.42:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.01.21-19.31.42:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.01.21-19.31.42:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.01.21-19.31.42:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.01.21-19.31.42:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.01.21-19.31.42:416][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.01.21-19.31.42:553][  0]LogSavePackage: Save=20.41ms
+[2018.01.21-19.31.42:553][  0]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Floor_400x400BECA090B4F3A873F3006D489348F49DF.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.01.21-19.31.42:560][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.01.21-19.31.42:560][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.01.21-19.31.42:567][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.21-19.31.42:567][  0]LightingResults: New page: Lighting Build
+[2018.01.21-19.31.42:611][  0]MapCheck: New page: Map Check
+[2018.01.21-19.31.42:611][  0]LightingResults: New page: Lighting Build
+[2018.01.21-19.31.42:957][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.01.21-19.31.42:966][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.21-19.31.42:977][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.21-19.31.43:029][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.541ms to complete.
+[2018.01.21-19.31.43:029][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.462
+[2018.01.21-19.31.43:086][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.21-19.31.43:180][  0]LogCollectionManager: Loaded 0 collections in 0.001585 seconds
+[2018.01.21-19.31.43:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Collections/' took 0.01s
+[2018.01.21-19.31.43:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Developers/Luke/Collections/' took 0.01s
+[2018.01.21-19.31.43:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Collections/' took 0.01s
+[2018.01.21-19.31.43:268][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.21-19.31.43:277][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2364 classes and 521 folders.
+[2018.01.21-19.31.43:360][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.21-19.31.43:402][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.21-19.31.43:450][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.21-19.31.43:541][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.21-19.31.43:543][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.21-19.31.43:549][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.21-19.31.43:598][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.21-19.31.43:638][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.21-19.31.43:801][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.01.21-19.31.43:801][  0]LogLoad: (Engine Initialization) Total time: 22.26 seconds
+[2018.01.21-19.31.43:801][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.21-19.31.43:801][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.21-19.31.43:801][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.21-19.31.44:019][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.21-19.31.44:060][  1]LogAssetRegistry: Asset discovery search completed in 14.3978 seconds
+[2018.01.21-19.31.44:062][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.21-19.31.44:062][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2018.01.21-19.32.19:177][762]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.21-19.32.19:181][762]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.21-19.32.19:190][762]LightingResults: New page: Lighting Build
+[2018.01.21-19.32.19:191][762]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.01.21-19.32.19:193][762]MapCheck: New page: Map Check
+[2018.01.21-19.32.19:193][762]LightingResults: New page: Lighting Build
+[2018.01.21-19.32.19:280][762]LogAIModule: Creating AISystem for world Untitled_1
+[2018.01.21-19.32.19:351][762]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.21-19.32.19:363][762]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.21-19.32.19:414][762]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.893ms to complete.
+[2018.01.21-19.32.19:414][762]LogFileHelpers: Loading map 'Template_Default' took 0.239
+[2018.01.21-19.32.29:004][336]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.01.21-19.32.41:021][411]LogSavePackage: Save=36.37ms
+[2018.01.21-19.32.41:021][411]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Bomberman_LevelD9F49539407F5527DC16C29D6D37E224.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap'
+[2018.01.21-19.32.41:023][411]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap
+[2018.01.21-19.32.41:065][411]LogSavePackage: Save=16.17ms
+[2018.01.21-19.32.41:066][411]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Bomberman_Level_BuiltData810229C345243C65723BA2959B74BEE7.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level_BuiltData.uasset'
+[2018.01.21-19.32.41:067][411]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level_BuiltData.uasset
+[2018.01.21-19.32.41:072][411]LogFileHelpers: Saving map 'Bomberman_Level' took 0.178
+[2018.01.21-19.33.33:114][516]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.21-19.33.33:126][516]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.01.21-19.33.42:649][ 85]LogEditorActor: Deleted Actor: PlayerStart
+[2018.01.21-19.33.42:658][ 85]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.01.21-19.33.45:298][244]Cmd: TRANSACTION UNDO
+[2018.01.21-19.33.45:299][244]LogEditorTransaction: Undo Delete selection
+[2018.01.21-19.33.45:316][244]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.21-19.33.48:887][457]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.01.21-19.33.48:899][457]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.01.21-19.33.54:525][793]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.01.21-19.33.54:535][793]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.01.21-19.34.26:203][683]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.21-19.34.37:753][373]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.01.21-19.35.20:586][923]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.20:586][923]LogEditorTransaction: Undo Move Actors
+[2018.01.21-19.35.28:435][382]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.28:435][382]LogEditorTransaction: Undo Move Actors
+[2018.01.21-19.35.29:082][420]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.29:082][420]LogEditorTransaction: Undo Move Actors
+[2018.01.21-19.35.50:818][704]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.50:818][704]LogEditorTransaction: Undo Move Actors
+[2018.01.21-19.35.51:045][717]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.51:046][717]LogEditorTransaction: Undo Set Location
+[2018.01.21-19.35.51:215][726]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.51:215][726]LogEditorTransaction: Undo Set Location
+[2018.01.21-19.35.51:411][737]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.51:411][737]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.51:610][747]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.51:610][747]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.51:797][757]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.51:797][757]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.52:049][771]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.52:049][771]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.52:250][782]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.52:251][782]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.52:438][792]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.52:438][792]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.52:621][802]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.52:622][802]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.52:825][813]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.52:825][813]LogEditorTransaction: Undo Set Location
+[2018.01.21-19.35.53:023][824]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.53:023][824]LogEditorTransaction: Undo Set Location
+[2018.01.21-19.35.53:239][837]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.53:239][837]LogEditorTransaction: Undo Set Location
+[2018.01.21-19.35.53:441][849]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.53:441][849]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.53:656][860]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.53:656][860]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.53:851][870]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.53:851][870]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.54:064][881]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.54:064][881]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.54:270][892]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.54:271][892]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.54:471][903]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.54:471][903]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.54:654][913]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.54:654][913]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.54:876][925]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.54:876][925]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.55:081][936]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.55:081][936]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.55:298][949]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.55:298][949]LogEditorTransaction: Undo Delete selection
+[2018.01.21-19.35.55:508][960]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.55:508][960]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.55:702][970]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.55:702][970]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.55:919][983]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.55:919][983]LogEditorTransaction: Undo Delete selection
+[2018.01.21-19.35.56:136][994]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.56:136][994]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.56:348][  5]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.56:348][  5]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.56:571][ 17]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.56:571][ 17]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.56:793][ 29]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.56:793][ 29]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.35.56:993][ 41]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.56:993][ 41]LogEditorTransaction: Undo Delete selection
+[2018.01.21-19.35.57:203][ 50]Cmd: TRANSACTION UNDO
+[2018.01.21-19.35.57:203][ 50]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.15:097][117]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.15:097][117]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.15:351][130]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.15:352][130]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.15:572][141]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.15:572][141]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.15:757][150]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.15:757][150]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.15:961][161]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.15:961][161]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.16:150][171]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.16:151][171]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.16:355][181]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.16:355][181]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.16:543][191]Cmd: TRANSACTION UNDO
+[2018.01.21-19.36.16:543][191]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.21-19.36.31:467][ 82]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.01.21-19.36.31:479][ 82]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.01.21-19.36.32:249][127]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.21-19.36.32:259][127]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.01.21-19.36.34:830][279]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.01.21-19.36.34:840][279]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.01.21-19.37.42:779][327]LogSavePackage: Save=21.48ms
+[2018.01.21-19.37.42:779][327]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Bomberman_Level602108EF4925273E0FDD309449629832.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap'
+[2018.01.21-19.37.42:786][327]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap
+[2018.01.21-19.37.42:842][327]LogSavePackage: Save=12.50ms
+[2018.01.21-19.37.42:842][327]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Bomberman_Level_BuiltDataD15EBE1A4ABABFE7F3A92DBBB37F77A4.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level_BuiltData.uasset'
+[2018.01.21-19.37.42:844][327]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level_BuiltData.uasset
+[2018.01.21-19.38.20:054][546]Cmd: TRANSACTION UNDO
+[2018.01.21-19.38.20:054][546]LogEditorTransaction: Undo Edit Intensity
+[2018.01.21-19.39.03:434][139]LogSavePackage: Save=20.22ms
+[2018.01.21-19.39.03:434][139]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Bomberman_Level6970431C44C5BE8C51C0E8B9B4189AF2.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap'
+[2018.01.21-19.39.03:438][139]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap
+[2018.01.21-19.39.03:464][139]LogSavePackage: Save=12.20ms
+[2018.01.21-19.39.03:464][139]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Bomberman_Level_BuiltData3288AB354B70E349CCBB008280285D00.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level_BuiltData.uasset'
+[2018.01.21-19.39.03:466][139]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level_BuiltData.uasset

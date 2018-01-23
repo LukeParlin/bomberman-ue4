@@ -1,11 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading BombermanEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
   BombermanGameModeBase.cpp
-  [2/3] Link UE4Editor-Bomberman-5703.dll
-  [3/3] Link UE4Editor-Bomberman-5703.lib
-     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5703.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5703.exp
-     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5703.suppressed.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5703.suppressed.exp
+  [2/3] Link UE4Editor-Bomberman-4992.dll
+  [3/3] Link UE4Editor-Bomberman-4992.lib
+     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-4992.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-4992.exp
+     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-4992.suppressed.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-4992.suppressed.exp
   Deploying BombermanEditor Win64 Development...
-  Total build time: 6.75 seconds (Local executor: 1.31 seconds)
+  Total build time: 2.97 seconds (Local executor: 1.92 seconds)

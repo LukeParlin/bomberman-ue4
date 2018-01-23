@@ -13,29 +13,27 @@ UCLASS()
 class BOMBERMAN_API ATile : public AActor
 {
 	GENERATED_BODY()
-	
+
+//////////////////
+//MEMBER VARIABLES
+//////////////////
 private:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere)
 	ATileObject* childObject;
 
 public:	
 	// Sets default values for this actor's properties
 	ATile();
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;	
-
-	/////////////////////////
-	//ACCESSORS AND MODIFIERS
-	/////////////////////////
-
+/////////////////////////
+//ACCESSORS AND MODIFIERS
+/////////////////////////
 public:
-	//Get and set the childObject of a tile
+	//Get and set the childObject of the tile
+	UFUNCTION(BlueprintCallable)
 	ATileObject* GetChildObject();
+
+	UFUNCTION(BlueprintCallable)
 	void SetChildObject(ATileObject* ch);
 	
 };

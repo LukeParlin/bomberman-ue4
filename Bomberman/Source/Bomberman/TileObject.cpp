@@ -11,17 +11,19 @@ ATileObject::ATileObject()
 
 }
 
-// Called when the game starts or when spawned
-void ATileObject::BeginPlay()
+//Get whather this object can be blown up by a bomb
+bool ATileObject::GetDestructible()
 {
-	Super::BeginPlay();
-	
+	return isDestructible;
 }
 
-// Called every frame
-void ATileObject::Tick(float DeltaTime)
+//Get and set grid coordinate of the tile
+FIntPoint ATileObject::GetTileCoord()
 {
-	Super::Tick(DeltaTime);
-
+	return tileCoord;
 }
 
+void ATileObject::SetTileCoord(FIntPoint tc)
+{
+	tileCoord = tc;
+}

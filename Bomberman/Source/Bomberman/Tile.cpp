@@ -7,31 +7,17 @@
 ATile::ATile()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 }
 
-// Called when the game starts or when spawned
-void ATile::BeginPlay()
+//Get and set the childObject of the tile
+ATileObject* ATile::GetChildObject()
 {
-	Super::BeginPlay();
-
-}
-
-// Called every frame
-void ATile::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
+	return childObject;
 }
 
 void ATile::SetChildObject(ATileObject* ch)
 {
 	childObject = ch;
 }
-
-ATileObject* ATile::GetChildObject()
-{
-	return childObject;
-}
-

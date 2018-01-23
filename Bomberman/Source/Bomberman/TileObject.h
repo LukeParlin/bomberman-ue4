@@ -10,18 +10,31 @@ UCLASS()
 class BOMBERMAN_API ATileObject : public AActor
 {
 	GENERATED_BODY()
-	
+
+private:
+	UPROPERTY(EditAnywhere)
+	bool isDestructible;
+
+	UPROPERTY(VisibleAnywhere)
+	FIntPoint tileCoord;
+
 public:	
 	// Sets default values for this actor's properties
 	ATileObject();
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+/////////////////////////
+//ACCESSORS AND MODIFIERS
+/////////////////////////
+public:
+	//Get whather this object can be blown up by a bomb
+	UFUNCTION(BlueprintCallable)
+	bool GetDestructible();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;	
+	//Get and set grid coordinate of the tile this object is on
+	UFUNCTION(BlueprintCallable)
+	FIntPoint GetTileCoord();
 
-	
+	UFUNCTION(BlueprintCallable)
+	void SetTileCoord(FIntPoint tc);
 	
 };

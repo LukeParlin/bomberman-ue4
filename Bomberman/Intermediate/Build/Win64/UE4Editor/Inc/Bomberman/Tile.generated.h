@@ -8,13 +8,52 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ATileObject;
 #ifdef BOMBERMAN_Tile_generated_h
 #error "Tile.generated.h already included, missing '#pragma once' in Tile.h"
 #endif
 #define BOMBERMAN_Tile_generated_h
 
-#define Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS
-#define Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetChildObject) \
+	{ \
+		P_GET_OBJECT(ATileObject,Z_Param_ch); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetChildObject(Z_Param_ch); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetChildObject) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ATileObject**)Z_Param__Result=this->GetChildObject(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetChildObject) \
+	{ \
+		P_GET_OBJECT(ATileObject,Z_Param_ch); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetChildObject(Z_Param_ch); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetChildObject) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ATileObject**)Z_Param__Result=this->GetChildObject(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Bomberman_Source_Bomberman_Tile_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATile(); \

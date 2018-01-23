@@ -8,13 +8,68 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FIntPoint;
 #ifdef BOMBERMAN_TileObject_generated_h
 #error "TileObject.generated.h already included, missing '#pragma once' in TileObject.h"
 #endif
 #define BOMBERMAN_TileObject_generated_h
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS
-#define Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetTileCoord) \
+	{ \
+		P_GET_STRUCT(FIntPoint,Z_Param_tc); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetTileCoord(Z_Param_tc); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTileCoord) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FIntPoint*)Z_Param__Result=this->GetTileCoord(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetDestructible) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=this->GetDestructible(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetTileCoord) \
+	{ \
+		P_GET_STRUCT(FIntPoint,Z_Param_tc); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetTileCoord(Z_Param_tc); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTileCoord) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FIntPoint*)Z_Param__Result=this->GetTileCoord(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetDestructible) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=this->GetDestructible(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Bomberman_Source_Bomberman_TileObject_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATileObject(); \
@@ -59,7 +114,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATileObject); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATileObject)
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_PRIVATE_PROPERTY_OFFSET
+#define Bomberman_Source_Bomberman_TileObject_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__isDestructible() { return STRUCT_OFFSET(ATileObject, isDestructible); } \
+	FORCEINLINE static uint32 __PPO__tileCoord() { return STRUCT_OFFSET(ATileObject, tileCoord); }
+
+
 #define Bomberman_Source_Bomberman_TileObject_h_9_PROLOG
 #define Bomberman_Source_Bomberman_TileObject_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

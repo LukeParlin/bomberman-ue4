@@ -5,7 +5,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 
+#include "Engine/Engine.h"
 #include "Engine/World.h"
+#include "GameFramework/Character.h"
+#include "Kismet/GameplayStatics.h"
 #include "Tile.h"
 #include "TileObject.h"
 
@@ -39,6 +42,18 @@ class BOMBERMAN_API ABombermanGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 
 private:
+	////////////////////////////////////
+	//PROPERTIES TO BE SET IN THE EDITOR
+	////////////////////////////////////
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<ACharacter> SpawnP1;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<ACharacter> SpawnP2;
+
+	UPROPERTY(EditAnywhere)
+	FIntPoint playerSpawnOffset;
+
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<ATile> SpawnTile;
 
@@ -51,8 +66,23 @@ private:
 	UPROPERTY(EditAnywhere)
 	FIntPoint mapSize;
 
-	UPROPERTY()
+	//////////////////
+	//MEMBER VARIABLES
+	//////////////////
+	UPROPERTY(VisibleAnywhere)
 	TArray<FMapRow> mapTiles;
+
+	UPROPERTY(VisibleAnywhere)
+	ACharacter* player1;
+
+	UPROPERTY(VisibleAnywhere)
+	ACharacter* player2;
+
+	UPROPERTY(VisibleAnywhere)
+	APlayerController* player1Controller;
+
+	UPROPERTY(VisibleAnywhere)
+	APlayerController* player2Controller;
 
 public:
 	// Sets default values for this actor's properties
@@ -65,8 +95,16 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+//////////////////
+//HELPER FUNCTIONS
+//////////////////
 private:
-	//Spawn tiles in the game world to create the level
-	void GenerateMap(int32 width, int32 height);
+	//Create the level from scratch: spawn the environment and the players
+	UFUNCTION()
+	void GenerateLevel(int32 levelWidth, int32 levelHeight);
+
+	//Translate a world position into tile coordinates on the map
+	UFUNCTION()
+	FIntPoint GetTileCoords(FVector pos);
 
 };

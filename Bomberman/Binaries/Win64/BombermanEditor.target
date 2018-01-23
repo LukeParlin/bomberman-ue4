@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Bomberman-5703.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Bomberman-4691.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Bomberman-5703.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Bomberman-4691.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Bomberman-5703.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Bomberman-4691.lib",
 			"Type": "ImportLibrary"
 		},
 		{

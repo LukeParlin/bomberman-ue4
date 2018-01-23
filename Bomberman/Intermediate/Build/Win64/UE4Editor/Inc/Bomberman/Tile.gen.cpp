@@ -17,10 +17,65 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 	BOMBERMAN_API UClass* Z_Construct_UClass_ATile();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Bomberman();
+	BOMBERMAN_API UFunction* Z_Construct_UFunction_ATile_GetChildObject();
 	BOMBERMAN_API UClass* Z_Construct_UClass_ATileObject_NoRegister();
+	BOMBERMAN_API UFunction* Z_Construct_UFunction_ATile_SetChildObject();
 // End Cross Module References
 	void ATile::StaticRegisterNativesATile()
 	{
+		UClass* Class = ATile::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetChildObject", (Native)&ATile::execGetChildObject },
+			{ "SetChildObject", (Native)&ATile::execSetChildObject },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_ATile_GetChildObject()
+	{
+		struct Tile_eventGetChildObject_Parms
+		{
+			ATileObject* ReturnValue;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, STRUCT_OFFSET(Tile_eventGetChildObject_Parms, ReturnValue), Z_Construct_UClass_ATileObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Tile.h" },
+				{ "ToolTip", "Get and set the childObject of the tile" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ATile, "GetChildObject", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Tile_eventGetChildObject_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ATile_SetChildObject()
+	{
+		struct Tile_eventSetChildObject_Parms
+		{
+			ATileObject* ch;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ch = { UE4CodeGen_Private::EPropertyClass::Object, "ch", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(Tile_eventSetChildObject_Parms, ch), Z_Construct_UClass_ATileObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ch,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Tile.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ATile, "SetChildObject", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Tile_eventSetChildObject_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ATile_NoRegister()
 	{
@@ -35,6 +90,10 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 				(UObject* (*)())Z_Construct_UClass_AActor,
 				(UObject* (*)())Z_Construct_UPackage__Script_Bomberman,
 			};
+			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_ATile_GetChildObject, "GetChildObject" }, // 2972080528
+				{ &Z_Construct_UFunction_ATile_SetChildObject, "SetChildObject" }, // 3221355745
+			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "Tile.h" },
@@ -47,7 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 				{ "ModuleRelativePath", "Tile.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_childObject = { UE4CodeGen_Private::EPropertyClass::Object, "childObject", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ATile, childObject), Z_Construct_UClass_ATileObject_NoRegister, METADATA_PARAMS(NewProp_childObject_MetaData, ARRAY_COUNT(NewProp_childObject_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_childObject = { UE4CodeGen_Private::EPropertyClass::Object, "childObject", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(ATile, childObject), Z_Construct_UClass_ATileObject_NoRegister, METADATA_PARAMS(NewProp_childObject_MetaData, ARRAY_COUNT(NewProp_childObject_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_childObject,
 			};
@@ -58,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 				&ATile::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
-				nullptr, 0,
+				FuncInfo, ARRAY_COUNT(FuncInfo),
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -69,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATile, 880341872);
+	IMPLEMENT_CLASS(ATile, 3185134983);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATile(Z_Construct_UClass_ATile, &ATile::StaticClass, TEXT("/Script/Bomberman"), TEXT("ATile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

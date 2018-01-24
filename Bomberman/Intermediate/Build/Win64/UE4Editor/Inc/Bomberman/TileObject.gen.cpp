@@ -49,7 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeTileObject() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "TileObject.h" },
-				{ "ToolTip", "Get whather this object can be blown up by a bomb" },
+				{ "ToolTip", "Get whether this object can be blown up by a bomb" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ATileObject, "GetDestructible", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TileObject_eventGetDestructible_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -118,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeTileObject() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_Bomberman,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_ATileObject_GetDestructible, "GetDestructible" }, // 3859808111
+				{ &Z_Construct_UFunction_ATileObject_GetDestructible, "GetDestructible" }, // 1993688295
 				{ &Z_Construct_UFunction_ATileObject_GetTileCoord, "GetTileCoord" }, // 2970937162
 				{ &Z_Construct_UFunction_ATileObject_SetTileCoord, "SetTileCoord" }, // 825191077
 			};
@@ -134,7 +134,7 @@ void EmptyLinkFunctionForGeneratedCodeTileObject() {}
 				{ "ModuleRelativePath", "TileObject.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_tileCoord = { UE4CodeGen_Private::EPropertyClass::Struct, "tileCoord", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(ATileObject, tileCoord), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_tileCoord_MetaData, ARRAY_COUNT(NewProp_tileCoord_MetaData)) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_tileCoord = { UE4CodeGen_Private::EPropertyClass::Struct, "tileCoord", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, STRUCT_OFFSET(ATileObject, tileCoord), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_tileCoord_MetaData, ARRAY_COUNT(NewProp_tileCoord_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isDestructible_MetaData[] = {
 				{ "Category", "TileObject" },
@@ -142,7 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeTileObject() {}
 			};
 #endif
 			auto NewProp_isDestructible_SetBit = [](void* Obj){ ((ATileObject*)Obj)->isDestructible = 1; };
-			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isDestructible = { UE4CodeGen_Private::EPropertyClass::Bool, "isDestructible", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ATileObject), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_isDestructible_SetBit)>::SetBit, METADATA_PARAMS(NewProp_isDestructible_MetaData, ARRAY_COUNT(NewProp_isDestructible_MetaData)) };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isDestructible = { UE4CodeGen_Private::EPropertyClass::Bool, "isDestructible", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ATileObject), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_isDestructible_SetBit)>::SetBit, METADATA_PARAMS(NewProp_isDestructible_MetaData, ARRAY_COUNT(NewProp_isDestructible_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_tileCoord,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_isDestructible,
@@ -165,7 +165,7 @@ void EmptyLinkFunctionForGeneratedCodeTileObject() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATileObject, 1576838443);
+	IMPLEMENT_CLASS(ATileObject, 235542477);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATileObject(Z_Construct_UClass_ATileObject, &ATileObject::StaticClass, TEXT("/Script/Bomberman"), TEXT("ATileObject"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATileObject);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

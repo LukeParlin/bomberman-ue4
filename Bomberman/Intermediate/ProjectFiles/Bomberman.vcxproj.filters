@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Bomberman.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{372CBBE4-9186-4456-9163-2737D978A547}</UniqueIdentifier>
+			<UniqueIdentifier>{1E7EA6D8-7E49-424E-8D20-6B5DD899D429}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Bomberman.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{9BCB050A-19F6-4E21-8095-64363C7FA104}</UniqueIdentifier>
+			<UniqueIdentifier>{B49D4721-4016-48C2-8C5F-29E97ABE9396}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,8 +28,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Bomberman">
-			<UniqueIdentifier>{6843ADD8-05CF-4DBD-B36A-BB8B5EFE3C32}</UniqueIdentifier>
+			<UniqueIdentifier>{927E960F-3E2F-4667-956F-B61735A937CC}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\Bomberman\Bomb.cpp">
+			<Filter>Source\Bomberman</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bomberman\Bomb.h">
+			<Filter>Source\Bomberman</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\Bomberman\Bomberman.Build.cs">
 			<Filter>Source\Bomberman</Filter>
 		</None >

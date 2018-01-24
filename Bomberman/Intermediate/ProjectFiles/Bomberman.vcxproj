@@ -414,6 +414,8 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\Bomberman\Bomb.cpp" />
+		<ClInclude Include="..\..\Source\Bomberman\Bomb.h" />
 		<None Include="..\..\Source\Bomberman\Bomberman.Build.cs" />
 		<ClCompile Include="..\..\Source\Bomberman\Bomberman.cpp" />
 		<ClInclude Include="..\..\Source\Bomberman\Bomberman.h" />

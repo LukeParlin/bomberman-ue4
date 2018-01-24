@@ -35,15 +35,51 @@ void ABombermanGameModeBase::Tick(float DeltaTime)
 
 }
 
+//Spawn a bomb at a player's position and subtract a bomb from that player
+void ABombermanGameModeBase::DropBomb(int32 playerID, int32 radius)
+{
+	UWorld* world = GetWorld();
+	if (world)
+	{
+		FVector spawnLocation = FVector::ZeroVector;
+		FRotator spawnRotator = FRotator::ZeroRotator;
+
+		FIntPoint bombCoord = GetTileCoords(players[playerID]->GetActorLocation());
+		//If the player has bombs remaining, and there's not already an object on this tile, spawn a bomb
+		if (players[playerID]->GetNumBombs() > 0 && mapTiles[bombCoord.Y].rowTiles[bombCoord.X]->GetChildObject() == nullptr)
+		{
+			if (SpawnBomb)
+			{
+				spawnLocation = mapTiles[bombCoord.Y].rowTiles[bombCoord.X]->GetActorLocation();
+
+				ABomb* newBomb = world->SpawnActor<ABomb>(SpawnBomb, spawnLocation, spawnRotator);
+				newBomb->SetTileCoord(bombCoord);
+				newBomb->SetPlayerID(playerID);
+				newBomb->SetExplosionRadius(radius);
+
+				mapTiles[bombCoord.Y].rowTiles[bombCoord.X]->SetChildObject(newBomb);
+				players[playerID]->DropBomb();
+			}
+		}
+	}
+}
+
+//Trigger a bomb explosion from a specified point and refund the player's bomb
+void ABombermanGameModeBase::ExplodeBomb(int32 playerID, int32 radius, FIntPoint bombCoord)
+{
+	mapTiles[bombCoord.Y].rowTiles[bombCoord.X]->SetChildObject(nullptr);
+	players[playerID]->AddBomb();
+}
+
 //Spawn tiles in the game world to create the level
 void ABombermanGameModeBase::GenerateLevel(int32 levelWidth, int32 levelHeight)
 {
 	UWorld* world = GetWorld();
-	if (world) {
-
+	if (world)
+	{
 		//Capture the PlayerControllers for Player 1 and Player 2
-		player1Controller = world->GetFirstPlayerController();
-		player2Controller = UGameplayStatics::CreatePlayer(this, -1, true);
+		playerControllers.Add(world->GetFirstPlayerController());
+		playerControllers.Add(UGameplayStatics::CreatePlayer(this, -1, true));
 
 		FVector spawnLocation = FVector::ZeroVector;
 		FRotator spawnRotator = FRotator::ZeroRotator;
@@ -76,18 +112,21 @@ void ABombermanGameModeBase::GenerateLevel(int32 levelWidth, int32 levelHeight)
 				{
 					if (SpawnP1)
 					{
-						player1 = world->SpawnActor<ACharacter>(SpawnP1, spawnLocation, spawnRotator);
-						player1Controller->Possess(player1);
+						players.Add(world->SpawnActor<ABombermanCharacter>(SpawnP1, spawnLocation, spawnRotator));
+						players[0]->SetPlayerID(0);
+						playerControllers[0]->Possess(players[0]);
 					}
 				}
 				else if (i == levelHeight - 1 - playerSpawnOffset.Y && j == levelWidth - 1 - playerSpawnOffset.X) //Spawn Player 2 in the top right of the map
 				{
 					if (SpawnP2)
 					{
-						player2 = world->SpawnActor<ACharacter>(SpawnP2, spawnLocation, spawnRotator);
-						if (player2Controller)
+						
+						if (playerControllers[1])
 						{
-							player2Controller->Possess(player2);
+							players.Add(world->SpawnActor<ABombermanCharacter>(SpawnP2, spawnLocation, spawnRotator));
+							players[1]->SetPlayerID(1);
+							playerControllers[1]->Possess(players[1]);
 						}
 					}
 				}

@@ -7,8 +7,9 @@
 
 #include "Engine/Engine.h"
 #include "Engine/World.h"
-#include "GameFramework/Character.h"
 #include "Kismet/GameplayStatics.h"
+#include "Bomb.h"
+#include "BombermanCharacter.h"
 #include "Tile.h"
 #include "TileObject.h"
 
@@ -46,10 +47,10 @@ private:
 	//PROPERTIES TO BE SET IN THE EDITOR
 	////////////////////////////////////
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<ACharacter> SpawnP1;
+	TSubclassOf<ABombermanCharacter> SpawnP1;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<ACharacter> SpawnP2;
+	TSubclassOf<ABombermanCharacter> SpawnP2;
 
 	UPROPERTY(EditAnywhere)
 	FIntPoint playerSpawnOffset;
@@ -64,6 +65,9 @@ private:
 	TSubclassOf<ATileObject> SpawnBreakable;
 
 	UPROPERTY(EditAnywhere)
+	TSubclassOf<ABomb> SpawnBomb;
+
+	UPROPERTY(EditAnywhere)
 	FIntPoint mapSize;
 
 	//////////////////
@@ -73,17 +77,14 @@ private:
 	TArray<FMapRow> mapTiles;
 
 	UPROPERTY(VisibleAnywhere)
-	ACharacter* player1;
+	TArray<ABombermanCharacter*> players;
 
 	UPROPERTY(VisibleAnywhere)
-	ACharacter* player2;
+	TArray<APlayerController*> playerControllers;
 
-	UPROPERTY(VisibleAnywhere)
-	APlayerController* player1Controller;
-
-	UPROPERTY(VisibleAnywhere)
-	APlayerController* player2Controller;
-
+//////////////////
+//UNREAL FUNCTIONS
+//////////////////
 public:
 	// Sets default values for this actor's properties
 	ABombermanGameModeBase();
@@ -94,6 +95,18 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+//////////////////
+//PUBLIC INTERFACE
+//////////////////
+public:
+	//Spawn a bomb at a player's position and subtract a bomb from that player
+	UFUNCTION(BlueprintCallable)
+	void DropBomb(int32 playerID, int32 radius);
+
+	//Trigger a bomb explosion from a specified point and refund the player's bomb
+	UFUNCTION(BlueprintCallable)
+	void ExplodeBomb(int32 playerID, int32 radius, FIntPoint bombCoord);
 
 //////////////////
 //HELPER FUNCTIONS

@@ -11,11 +11,14 @@ class BOMBERMAN_API ATileObject : public AActor
 {
 	GENERATED_BODY()
 
-private:
-	UPROPERTY(EditAnywhere)
+//////////////////
+//MEMBER VARIABLES
+//////////////////
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	bool isDestructible;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	FIntPoint tileCoord;
 
 public:	
@@ -26,7 +29,7 @@ public:
 //ACCESSORS AND MODIFIERS
 /////////////////////////
 public:
-	//Get whather this object can be blown up by a bomb
+	//Get whether this object can be blown up by a bomb
 	UFUNCTION(BlueprintCallable)
 	bool GetDestructible();
 

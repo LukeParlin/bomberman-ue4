@@ -15,20 +15,44 @@ ABombermanCharacter::ABombermanCharacter()
 void ABombermanCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	MoveComponent = GetCharacterMovement();
+	if (MoveComponent)
+	{
+		moveSpeed = MoveComponent->MaxWalkSpeed;
+	}
 }
 
-// Called every frame
-void ABombermanCharacter::Tick(float DeltaTime)
+//Subtract one from numBombs
+void ABombermanCharacter::DropBomb()
 {
-	Super::Tick(DeltaTime);
-
+	--numBombs;
 }
 
-// Called to bind functionality to input
-void ABombermanCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+//Add one to numBombs
+void ABombermanCharacter::AddBomb()
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
+	++numBombs;
 }
 
+//Get and set the player's ID
+int32 ABombermanCharacter::GetPlayerID()
+{
+	return playerID;
+}
+
+void ABombermanCharacter::SetPlayerID(int32 id)
+{
+	playerID = id;
+}
+
+//Get and set the player's number of bombs
+int32 ABombermanCharacter::GetNumBombs()
+{
+	return numBombs;
+}
+
+void ABombermanCharacter::SetNumBombs(int32 num)
+{
+	numBombs = num;
+}

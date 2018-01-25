@@ -8,7 +8,7 @@ ABombermanGameModeBase::ABombermanGameModeBase()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	
 }
 
 // Called when the game starts or when spawned
@@ -17,8 +17,22 @@ void ABombermanGameModeBase::BeginPlay()
 	Super::BeginPlay();
 	UE_LOG(LogTemp, Warning, TEXT("Beginning Bomberman game..."));
 
+	//Set up the PlayerControllers
+	UWorld* world = GetWorld();
+	if (world)
+	{
+		//Capture the PlayerControllers for Player 1 and Player 2
+		playerControllers.Add(world->GetFirstPlayerController());
+		playerControllers.Add(UGameplayStatics::CreatePlayer(this, -1, true));
+
+		//Position the Camera according to the map size
+		FVector cameraLocation = FVector(TILE_HEIGHT * (mapSize.Y - 1) / 2, TILE_WIDTH * (mapSize.X - 1) / 2, mapSize.Y * 370); //370 IS A MAGIC NUMBER
+		playerControllers[0]->GetViewTarget()->SetActorLocation(cameraLocation);													 //WHICH ZOOMS THE CAMERA APPROPRIATELY
+	}
+
 	//Generate a level with Y rows of tiles and X columns of tiles
 	GenerateLevel(mapSize.X, mapSize.Y);
+
 }
 
 // Called every frame
@@ -32,6 +46,7 @@ void ABombermanGameModeBase::Tick(float DeltaTime)
 		GEngine->AddOnScreenDebugMessage(1, 2.0f, FColor::Green, FString::Printf(TEXT("Player 1 x: %i, y: %i"), p1Coords.X, p1Coords.Y));
 		GEngine->AddOnScreenDebugMessage(2, 2.0f, FColor::Green, FString::Printf(TEXT("Player 2 x: %i, y: %i"), p2Coords.X, p2Coords.Y));
 	#endif*/
+
 }
 
 //Spawn a bomb at a player's position and subtract a bomb from that player
@@ -142,7 +157,7 @@ void ABombermanGameModeBase::ExplodeBomb(int32 playerID, int32 radius, FIntPoint
 void ABombermanGameModeBase::DropPowerup(FIntPoint powerupCoord)
 {
 	UWorld* world = GetWorld();
-	if (world)
+	if (world && !UGameplayStatics::IsGamePaused(world)) //Powerups shouldn't spawn while the game is paused
 	{
 		int index = FMath::RandRange(0, SpawnPowerups.Num() - 1);
 		if (SpawnPowerups[index])
@@ -169,14 +184,6 @@ void ABombermanGameModeBase::GenerateLevel(int32 levelWidth, int32 levelHeight)
 	UWorld* world = GetWorld();
 	if (world)
 	{
-		//Capture the PlayerControllers for Player 1 and Player 2
-		playerControllers.Add(world->GetFirstPlayerController());
-		playerControllers.Add(UGameplayStatics::CreatePlayer(this, -1, true));
-
-		//Position the Camera according to the map size
-		FVector cameraLocation = FVector(TILE_HEIGHT * (levelHeight - 1) / 2, TILE_WIDTH * (levelWidth - 1) / 2, levelHeight * 370);	//370 IS A MAGIC NUMBER
-		playerControllers[0]->GetViewTarget()->SetActorLocation(cameraLocation);											//WHICH ZOOMS THE CAMERA APPROPRIATELY
-
 		FVector spawnLocation = FVector::ZeroVector;
 		FRotator spawnRotator = FRotator::ZeroRotator;
 
@@ -238,6 +245,52 @@ void ABombermanGameModeBase::GenerateLevel(int32 levelWidth, int32 levelHeight)
 			mapTiles.Add(mapRow);
 		}
 	}
+}
+
+//Reset the game - somebody has won, and has chosen to play again
+void ABombermanGameModeBase::ResetGame()
+{
+	//Remove the player pawns...
+	while (players.Num() > 0)
+	{
+		players[0]->Destroy();
+		players.RemoveAt(0);
+	}
+
+	UWorld* world = GetWorld();
+	if (world)
+	{
+		//Search the scene for any active Explosions
+		TArray<AActor*> explosions;
+		UGameplayStatics::GetAllActorsOfClass(world, SpawnExplosionEffect, explosions);
+
+		//Remove all remaining Explosions
+		while (explosions.Num() > 0)
+		{
+			explosions[0]->Destroy();
+			explosions.RemoveAt(0);
+		}
+	}
+
+	//Remove each row of the map
+	while (mapTiles.Num() > 0)
+	{
+		//Remove each tile from the row
+		while (mapTiles[0].rowTiles.Num() > 0)
+		{
+			//If the tile has a child, destroy it
+			if (mapTiles[0].rowTiles[0]->GetChildObject())
+			{
+				mapTiles[0].rowTiles[0]->GetChildObject()->Destroy();
+			}
+			mapTiles[0].rowTiles[0]->Destroy();
+			mapTiles[0].rowTiles.RemoveAt(0);
+		}
+		mapTiles.RemoveAt(0);
+	}
+
+	//Generate a new level from scratch
+	GenerateLevel(mapSize.X, mapSize.Y);
 }
 
 //Translate a world position into tile coordinates on the map

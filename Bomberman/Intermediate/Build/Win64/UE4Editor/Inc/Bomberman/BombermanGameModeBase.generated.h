@@ -31,6 +31,14 @@ struct FIntPoint;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execResetGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ResetGame(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGenerateLevel) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_levelWidth); \
@@ -89,6 +97,14 @@ struct FIntPoint;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(FIntPoint*)Z_Param__Result=this->GetTileCoords(Z_Param_pos); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execResetGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ResetGame(); \
 		P_NATIVE_END; \
 	} \
  \

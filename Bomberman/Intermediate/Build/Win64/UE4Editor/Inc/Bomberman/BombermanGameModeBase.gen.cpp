@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanGameModeBase() {}
 	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_GenerateLevel();
 	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_GetTileCoords();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_ResetGame();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController_NoRegister();
 	BOMBERMAN_API UClass* Z_Construct_UClass_ABombermanCharacter_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -108,6 +109,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 			{ "ExplodeBomb", (Native)&ABombermanGameModeBase::execExplodeBomb },
 			{ "GenerateLevel", (Native)&ABombermanGameModeBase::execGenerateLevel },
 			{ "GetTileCoords", (Native)&ABombermanGameModeBase::execGetTileCoords },
+			{ "ResetGame", (Native)&ABombermanGameModeBase::execResetGame },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -270,6 +272,22 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_ABombermanGameModeBase_ResetGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
+				{ "ToolTip", "Reset the game - somebody has won, and has chosen to play again" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ABombermanGameModeBase, "ResetGame", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ABombermanGameModeBase_NoRegister()
 	{
 		return ABombermanGameModeBase::StaticClass();
@@ -290,6 +308,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				{ &Z_Construct_UFunction_ABombermanGameModeBase_ExplodeBomb, "ExplodeBomb" }, // 3717985365
 				{ &Z_Construct_UFunction_ABombermanGameModeBase_GenerateLevel, "GenerateLevel" }, // 1278586298
 				{ &Z_Construct_UFunction_ABombermanGameModeBase_GetTileCoords, "GetTileCoords" }, // 2476320512
+				{ &Z_Construct_UFunction_ABombermanGameModeBase_ResetGame, "ResetGame" }, // 3209099014
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -305,7 +324,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_playerControllers = { UE4CodeGen_Private::EPropertyClass::Array, "playerControllers", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, playerControllers), METADATA_PARAMS(NewProp_playerControllers_MetaData, ARRAY_COUNT(NewProp_playerControllers_MetaData)) };
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_playerControllers = { UE4CodeGen_Private::EPropertyClass::Array, "playerControllers", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, playerControllers), METADATA_PARAMS(NewProp_playerControllers_MetaData, ARRAY_COUNT(NewProp_playerControllers_MetaData)) };
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerControllers_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "playerControllers", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_players_MetaData[] = {
@@ -313,7 +332,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_players = { UE4CodeGen_Private::EPropertyClass::Array, "players", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, players), METADATA_PARAMS(NewProp_players_MetaData, ARRAY_COUNT(NewProp_players_MetaData)) };
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_players = { UE4CodeGen_Private::EPropertyClass::Array, "players", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, players), METADATA_PARAMS(NewProp_players_MetaData, ARRAY_COUNT(NewProp_players_MetaData)) };
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_players_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "players", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000020000, 1, nullptr, 0, Z_Construct_UClass_ABombermanCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mapTiles_MetaData[] = {
@@ -322,7 +341,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				{ "ToolTip", "MEMBER VARIABLES" },
 			};
 #endif
-			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_mapTiles = { UE4CodeGen_Private::EPropertyClass::Array, "mapTiles", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, mapTiles), METADATA_PARAMS(NewProp_mapTiles_MetaData, ARRAY_COUNT(NewProp_mapTiles_MetaData)) };
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_mapTiles = { UE4CodeGen_Private::EPropertyClass::Array, "mapTiles", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, mapTiles), METADATA_PARAMS(NewProp_mapTiles_MetaData, ARRAY_COUNT(NewProp_mapTiles_MetaData)) };
 			static const UE4CodeGen_Private::FStructPropertyParams NewProp_mapTiles_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "mapTiles", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000020000, 1, nullptr, 0, Z_Construct_UScriptStruct_FMapRow, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mapSize_MetaData[] = {
@@ -330,14 +349,14 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_mapSize = { UE4CodeGen_Private::EPropertyClass::Struct, "mapSize", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, mapSize), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_mapSize_MetaData, ARRAY_COUNT(NewProp_mapSize_MetaData)) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_mapSize = { UE4CodeGen_Private::EPropertyClass::Struct, "mapSize", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, mapSize), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_mapSize_MetaData, ARRAY_COUNT(NewProp_mapSize_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnPowerups_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SpawnPowerups = { UE4CodeGen_Private::EPropertyClass::Array, "SpawnPowerups", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnPowerups), METADATA_PARAMS(NewProp_SpawnPowerups_MetaData, ARRAY_COUNT(NewProp_SpawnPowerups_MetaData)) };
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SpawnPowerups = { UE4CodeGen_Private::EPropertyClass::Array, "SpawnPowerups", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnPowerups), METADATA_PARAMS(NewProp_SpawnPowerups_MetaData, ARRAY_COUNT(NewProp_SpawnPowerups_MetaData)) };
 			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnPowerups_Inner = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnPowerups", RF_Public|RF_Transient|RF_MarkAsNative, 0x0004000000000000, 1, nullptr, 0, Z_Construct_UClass_APowerup_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnExplosionEffect_MetaData[] = {
@@ -345,49 +364,49 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnExplosionEffect = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnExplosionEffect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnExplosionEffect), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnExplosionEffect_MetaData, ARRAY_COUNT(NewProp_SpawnExplosionEffect_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnExplosionEffect = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnExplosionEffect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnExplosionEffect), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnExplosionEffect_MetaData, ARRAY_COUNT(NewProp_SpawnExplosionEffect_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnBomb_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnBomb = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnBomb", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnBomb), Z_Construct_UClass_ABomb_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnBomb_MetaData, ARRAY_COUNT(NewProp_SpawnBomb_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnBomb = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnBomb", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnBomb), Z_Construct_UClass_ABomb_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnBomb_MetaData, ARRAY_COUNT(NewProp_SpawnBomb_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnBreakable_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnBreakable = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnBreakable", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnBreakable), Z_Construct_UClass_ATileObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnBreakable_MetaData, ARRAY_COUNT(NewProp_SpawnBreakable_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnBreakable = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnBreakable", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnBreakable), Z_Construct_UClass_ATileObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnBreakable_MetaData, ARRAY_COUNT(NewProp_SpawnBreakable_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnWall_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnWall = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnWall", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnWall), Z_Construct_UClass_ATileObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnWall_MetaData, ARRAY_COUNT(NewProp_SpawnWall_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnWall = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnWall", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnWall), Z_Construct_UClass_ATileObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnWall_MetaData, ARRAY_COUNT(NewProp_SpawnWall_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnTile_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnTile = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnTile", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnTile), Z_Construct_UClass_ATile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnTile_MetaData, ARRAY_COUNT(NewProp_SpawnTile_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnTile = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnTile", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnTile), Z_Construct_UClass_ATile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnTile_MetaData, ARRAY_COUNT(NewProp_SpawnTile_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerSpawnOffset_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FStructPropertyParams NewProp_playerSpawnOffset = { UE4CodeGen_Private::EPropertyClass::Struct, "playerSpawnOffset", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, playerSpawnOffset), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_playerSpawnOffset_MetaData, ARRAY_COUNT(NewProp_playerSpawnOffset_MetaData)) };
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_playerSpawnOffset = { UE4CodeGen_Private::EPropertyClass::Struct, "playerSpawnOffset", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, playerSpawnOffset), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_playerSpawnOffset_MetaData, ARRAY_COUNT(NewProp_playerSpawnOffset_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnP2_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
 				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnP2 = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnP2", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnP2), Z_Construct_UClass_ABombermanCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnP2_MetaData, ARRAY_COUNT(NewProp_SpawnP2_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnP2 = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnP2", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnP2), Z_Construct_UClass_ABombermanCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnP2_MetaData, ARRAY_COUNT(NewProp_SpawnP2_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnP1_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
@@ -395,7 +414,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				{ "ToolTip", "PROPERTIES TO BE SET IN THE EDITOR" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnP1 = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnP1", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnP1), Z_Construct_UClass_ABombermanCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnP1_MetaData, ARRAY_COUNT(NewProp_SpawnP1_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnP1 = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnP1", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnP1), Z_Construct_UClass_ABombermanCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnP1_MetaData, ARRAY_COUNT(NewProp_SpawnP1_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_playerControllers,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_playerControllers_Inner,
@@ -433,7 +452,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABombermanGameModeBase, 1420068850);
+	IMPLEMENT_CLASS(ABombermanGameModeBase, 446903466);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABombermanGameModeBase(Z_Construct_UClass_ABombermanGameModeBase, &ABombermanGameModeBase::StaticClass, TEXT("/Script/Bomberman"), TEXT("ABombermanGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABombermanGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

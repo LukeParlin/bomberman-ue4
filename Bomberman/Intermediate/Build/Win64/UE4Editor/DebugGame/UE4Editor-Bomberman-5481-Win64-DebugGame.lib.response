@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Bomberman-5481-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Bomb.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Bomberman.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\BombermanCharacter.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\BombermanGameModeBase.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\BombermanGameViewportClient.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Powerup.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Tile.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\TileObject.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Bomb.gen.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Bomberman.init.gen.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\BombermanCharacter.gen.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\BombermanGameModeBase.gen.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\BombermanGameViewportClient.gen.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Powerup.gen.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\Tile.gen.cpp.obj"
+"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\Bomberman\TileObject.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Bomberman\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Bomberman-5481-Win64-DebugGame.lib"

@@ -44,7 +44,7 @@ class BOMBERMAN_API ABombermanGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 
-private:
+protected:
 	////////////////////////////////////
 	//PROPERTIES TO BE SET IN THE EDITOR
 	////////////////////////////////////
@@ -84,10 +84,10 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	TArray<FMapRow> mapTiles;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TArray<ABombermanCharacter*> players;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TArray<APlayerController*> playerControllers;
 
 //////////////////
@@ -131,6 +131,10 @@ private:
 	//Create the level from scratch: spawn the environment and the players
 	UFUNCTION()
 	void GenerateLevel(int32 levelWidth, int32 levelHeight);
+
+	//Reset the game - somebody has won, and has chosen to play again
+	UFUNCTION(BlueprintCallable)
+	void ResetGame();
 
 	//Translate a world position into tile coordinates on the map
 	UFUNCTION()

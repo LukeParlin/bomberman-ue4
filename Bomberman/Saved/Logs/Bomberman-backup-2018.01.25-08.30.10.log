@@ -1,0 +1,1336 @@
+﻿Log file open, 01/25/18 07:52:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Bomberman
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(279716743) SRandInit(279716743).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.173384
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Binaries/Win64/UE4Editor-Bomberman-2503.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.25-07.52.02:889][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-07.52.02:890][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.25-07.52.02:902][  0]LogInit: Computer: DESKTOP-3HBJQFL
+[2018.01.25-07.52.02:902][  0]LogInit: User: Luke
+[2018.01.25-07.52.02:902][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.25-07.52.02:902][  0]LogInit: High frequency timer resolution =2.533208 MHz
+[2018.01.25-07.52.02:902][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.25-07.52.02:902][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.25-07.52.02:902][  0]LogMemory: Process Physical Memory: 272.78 MB used, 272.78 MB peak
+[2018.01.25-07.52.02:902][  0]LogMemory: Process Virtual Memory: 271.77 MB used, 271.77 MB peak
+[2018.01.25-07.52.02:902][  0]LogMemory: Physical Memory: 6362.29 MB used,  9940.63 MB free, 16302.92 MB total
+[2018.01.25-07.52.02:902][  0]LogMemory: Virtual Memory: 679.72 MB used,  9940.63 MB free, 134217728.00 MB total
+[2018.01.25-07.52.03:060][  0]LogInit: Using OS detected language (en-US).
+[2018.01.25-07.52.03:060][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.25-07.52.03:062][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.25-07.52.03:482][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.25-07.52.03:750][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.25-07.52.03:793][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.01.25-07.52.03:793][  0]LogD3D11RHI:       4055/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.25-07.52.03:798][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.01.25-07.52.03:798][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.25-07.52.03:800][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.25-07.52.03:800][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.25-07.52.03:800][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.25-07.52.03:808][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.25-07.52.03:808][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.01.25-07.52.03:808][  0]LogWindows: EnumDisplayDevices:
+[2018.01.25-07.52.03:808][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.01.25-07.52.03:808][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.25-07.52.03:808][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.25-07.52.03:808][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.25-07.52.03:808][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.01.25-07.52.03:808][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.25-07.52.03:808][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.25-07.52.03:808][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.01.25-07.52.03:833][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.25-07.52.03:851][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.25-07.52.03:852][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Intermediate/Shaders/WorkingDirectory/3896/).
+[2018.01.25-07.52.03:852][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luke/AppData/Local/Temp/UnrealShaderWorkingDir/FC6B23AF43BF2998077B1BBE5E2682D0/'.
+[2018.01.25-07.52.03:852][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.25-07.52.04:918][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.25-07.52.04:974][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.25-07.52.05:030][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.25-07.52.05:085][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.25-07.52.05:143][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.25-07.52.05:201][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.25-07.52.05:264][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.25-07.52.05:321][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.25-07.52.05:368][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.25-07.52.05:423][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.25-07.52.05:476][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.25-07.52.05:530][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.25-07.52.05:584][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.25-07.52.05:638][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.25-07.52.05:745][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.25-07.52.05:745][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.25-07.52.05:798][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.25-07.52.05:841][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.25-07.52.05:951][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.25-07.52.05:980][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.25-07.52.06:033][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.25-07.52.06:085][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.25-07.52.06:138][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.25-07.52.06:192][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.25-07.52.06:192][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.25-07.52.06:690][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.25-07.52.06:759][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.25-07.52.06:759][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.25-07.52.06:759][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.25-07.52.06:759][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.25-07.52.06:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.25-07.52.06:760][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.25-07.52.06:776][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.25-07.52.06:788][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.25-07.52.06:799][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.25-07.52.06:799][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.25-07.52.06:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-07.52.06:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-07.52.07:204][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-07.52.07:582][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.25-07.52.07:638][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.25-07.52.07:639][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.25-07.52.07:639][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.25-07.52.07:639][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.25-07.52.07:639][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.25-07.52.07:669][  0]LogNetVersion: Bomberman , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2909264662)
+[2018.01.25-07.52.07:844][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2018.01.25-07.52.08:382][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.072324 seconds
+[2018.01.25-07.52.08:388][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.01.25-07.52.08:388][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.01.25-07.52.08:388][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.25-07.52.08:446][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.25-07.52.11:389][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.25-07.52.11:431][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.25-07.52.12:211][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.25-07.52.12:675][  0]SourceControl: Source control is disabled
+[2018.01.25-07.52.12:675][  0]SourceControl: Source control is disabled
+[2018.01.25-07.52.12:740][  0]SourceControl: Source control is disabled
+[2018.01.25-07.52.12:796][  0]SourceControl: Source control is disabled
+[2018.01.25-07.52.13:631][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.25-07.52.13:920][  0]LogOcInput: OculusInput pre-init called
+[2018.01.25-07.52.14:210][  0]LogEngine: Initializing Engine...
+[2018.01.25-07.52.14:213][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.25-07.52.14:448][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.25-07.52.14:448][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.25-07.52.14:582][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.25-07.52.14:594][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-07.52.14:610][  0]LogInit: FAudioDevice initialized.
+[2018.01.25-07.52.14:688][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.25-07.52.14:703][  0]LogInit: Texture streaming: Enabled
+[2018.01.25-07.52.14:813][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.25-07.52.14:813][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={E55D9919-472C-2825-72D7-269A2D38873B}
+[2018.01.25-07.52.14:813][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={2243E4B2-4D6B-6CA3-5A46-44BA9046766D}
+[2018.01.25-07.52.14:959][  0]LogInit: Transaction tracking system initialized
+[2018.01.25-07.52.15:307][  0]BlueprintLog: New page: Editor Load
+[2018.01.25-07.52.16:304][  0]LocalizationService: Localization service is disabled
+[2018.01.25-07.52.17:147][  0]LogConsoleResponse: Display: 
+[2018.01.25-07.52.17:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.25-07.52.17:328][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.25-07.52.17:328][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.25-07.52.18:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/' took 0.02s
+[2018.01.25-07.52.18:658][  0]SourceControl: Source control is disabled
+[2018.01.25-07.52.18:658][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.25-07.52.18:658][  0]LightingResults: New page: Lighting Build
+[2018.01.25-07.52.18:706][  0]MapCheck: New page: Map Check
+[2018.01.25-07.52.18:706][  0]LightingResults: New page: Lighting Build
+[2018.01.25-07.52.19:262][  0]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-07.52.19:267][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.25-07.52.19:280][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.25-07.52.19:342][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.147ms to complete.
+[2018.01.25-07.52.19:342][  0]LogFileHelpers: Loading map 'Bomberman_Level' took 0.684
+[2018.01.25-07.52.19:406][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.25-07.52.19:493][  0]LogCollectionManager: Loaded 0 collections in 0.001605 seconds
+[2018.01.25-07.52.19:581][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Collections/' took 0.01s
+[2018.01.25-07.52.19:581][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Developers/Luke/Collections/' took 0.01s
+[2018.01.25-07.52.19:581][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Collections/' took 0.01s
+[2018.01.25-07.52.19:581][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.25-07.52.19:591][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2370 classes and 521 folders.
+[2018.01.25-07.52.19:670][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.01.25-07.52.19:710][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.25-07.52.19:761][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.25-07.52.19:863][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.25-07.52.19:866][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.25-07.52.19:875][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.25-07.52.19:997][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.25-07.52.20:197][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.25-07.52.20:197][  0]LogLoad: (Engine Initialization) Total time: 20.04 seconds
+[2018.01.25-07.52.20:197][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.25-07.52.20:197][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.25-07.52.20:197][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.25-07.52.20:235][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.25-07.52.20:270][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-07.52.20:297][  1]LogAssetRegistry: Asset discovery search completed in 12.4739 seconds
+[2018.01.25-07.52.20:299][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.25-07.52.20:300][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.01.25-07.52.23:639][176]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-07.52.23:695][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-07.52.23:696][176]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 7:52:23 AM)
+[2018.01.25-07.52.23:696][176]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-07.52.23:697][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001579s)
+[2018.01.25-07.52.23:698][176]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-07.52.23:698][176]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.01.25-07.52.23:698][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002826s)
+[2018.01.25-07.52.23:715][176]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-07.52.23:728][176]LogInit: FAudioDevice initialized.
+[2018.01.25-07.52.23:773][176]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-07.52.23:775][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-07.52.23
+[2018.01.25-07.52.23:776][176]LogWorld: Bringing up level for play took: 0.000756
+[2018.01.25-07.52.23:820][176]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.01.25-07.52.23:822][176]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-07.52.23:872][176]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.715
+[2018.01.25-07.52.23:881][176]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.23:881][176]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.23:881][176]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-07.52.23:881][176]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-07.52.27:555][389]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.27:555][389]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.27:570][390]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.27:570][390]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.27:587][391]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.27:587][391]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.27:603][392]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.27:603][392]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.27:620][393]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.27:620][393]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.27:637][394]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.27:637][394]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.27:653][395]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.27:752][401]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:768][402]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:785][403]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:802][404]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:818][405]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:835][406]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:851][407]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:868][408]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:885][409]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:901][410]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:918][411]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:935][412]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:952][413]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:968][414]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.27:985][415]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:001][416]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:018][417]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:035][418]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:052][419]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:068][420]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:085][421]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:102][422]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:118][423]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:135][424]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:151][425]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:168][426]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:185][427]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:202][428]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:218][429]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:235][430]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:251][431]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:268][432]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:285][433]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:301][434]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:318][435]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:335][436]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:351][437]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:368][438]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:385][439]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:401][440]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:421][441]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:441][442]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:463][443]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:484][444]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:505][445]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:528][446]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:550][447]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:574][448]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:597][449]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:620][450]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:644][451]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:669][452]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:693][453]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:718][454]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:744][455]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:770][456]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:795][457]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:822][458]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:848][459]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:875][460]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:904][461]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:931][462]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:959][463]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.28:988][464]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:016][465]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:046][466]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:075][467]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:105][468]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:135][469]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:166][470]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:197][471]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:229][472]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:261][473]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:293][474]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:325][475]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:358][476]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:391][477]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:424][478]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:458][479]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:492][480]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:527][481]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:562][482]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:597][483]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:633][484]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:669][485]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:705][486]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:742][487]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:779][488]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:816][489]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:854][490]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:892][491]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:931][492]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.29:969][493]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:009][494]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:049][495]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:088][496]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:129][497]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:169][498]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:210][499]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:251][500]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:293][501]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:336][502]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:377][503]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:420][504]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:463][505]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:506][506]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:550][507]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:595][508]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:640][509]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:684][510]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:730][511]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:775][512]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:821][513]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:867][514]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:914][515]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.30:961][516]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:009][517]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:056][518]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:104][519]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:152][520]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:201][521]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:250][522]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:300][523]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:350][524]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:400][525]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:451][526]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:502][527]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:553][528]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:605][529]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:656][530]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:709][531]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:762][532]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:814][533]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:868][534]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:922][535]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.31:976][536]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:031][537]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:085][538]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:141][539]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:196][540]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:252][541]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:308][542]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:365][543]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:422][544]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:479][545]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:537][546]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:595][547]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:654][548]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:713][549]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:771][550]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:832][551]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:891][552]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.32:951][553]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:011][554]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:072][555]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:134][556]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:195][557]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:257][558]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:319][559]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:382][560]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:446][561]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:508][562]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:572][563]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:636][564]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:700][565]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:765][566]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:830][567]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:896][568]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.33:961][569]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:027][570]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:094][571]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:162][572]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:228][573]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:296][574]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:364][575]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:432][576]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:501][577]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:570][578]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:639][579]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:709][580]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:780][581]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:850][582]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:921][583]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.34:992][584]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:063][585]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:135][586]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:208][587]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:281][588]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:354][589]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:427][590]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:501][591]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:576][592]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:649][593]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:724][594]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:799][595]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:876][596]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.35:950][597]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:027][598]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:103][599]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:180][600]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:257][601]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:335][602]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:413][603]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:492][604]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:570][605]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:650][606]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:728][607]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:809][608]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:888][609]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.36:968][610]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:049][611]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:131][612]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:212][613]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:294][614]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:376][615]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:459][616]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:542][617]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:625][618]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:708][619]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:793][620]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:877][621]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.37:961][622]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:047][623]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:132][624]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:217][625]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:304][626]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:390][627]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:477][628]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:564][629]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:652][630]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:740][631]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:827][632]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.38:916][633]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:005][634]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:094][635]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:184][636]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:274][637]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:365][638]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:457][639]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:546][640]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:638][641]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:730][642]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:822][643]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.39:914][644]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:007][645]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:101][646]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:195][647]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:289][648]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:386][649]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:480][650]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:574][651]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:668][652]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:765][653]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:863][654]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.40:962][655]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:055][656]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:152][657]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:249][658]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:345][659]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:443][660]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:541][661]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:642][662]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:742][663]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:842][664]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.41:940][665]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:041][666]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:143][667]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:241][668]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:342][669]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:444][670]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:546][671]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:649][672]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:751][673]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:855][674]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.42:958][675]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:062][676]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:167][677]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:270][678]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:375][679]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:481][680]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:588][681]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:695][682]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:802][683]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.43:910][684]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:018][685]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:127][686]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:236][687]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:346][688]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:457][689]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:569][690]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:681][691]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:795][692]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.44:907][693]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:020][694]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:134][695]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:247][696]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:361][697]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:476][698]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:591][699]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:705][700]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:822][701]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.45:938][702]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:054][703]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:172][704]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:290][705]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:409][706]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:530][707]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:650][708]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:771][709]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.46:892][710]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.47:014][711]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.47:136][712]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.47:259][713]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.01.25-07.52.49:403][826]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-07.52.49:433][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-07.52.49:434][826]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 7:52:49 AM)
+[2018.01.25-07.52.49:434][826]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-07.52.49:435][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001498s)
+[2018.01.25-07.52.49:436][826]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-07.52.49:436][826]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2018.01.25-07.52.49:436][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002698s)
+[2018.01.25-07.52.49:461][826]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-07.52.49:479][826]LogInit: FAudioDevice initialized.
+[2018.01.25-07.52.49:519][826]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-07.52.49:520][826]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-07.52.49
+[2018.01.25-07.52.49:521][826]LogWorld: Bringing up level for play took: 0.000666
+[2018.01.25-07.52.49:523][826]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-07.52.49:596][826]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.44
+[2018.01.25-07.52.49:698][826]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.52.49:698][826]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.52.49:698][826]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-07.52.49:698][826]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-07.52.52:460][966]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-07.52.52:823][966]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2018.01.25-07.52.53:469][966]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.25-07.52.53:529][966]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.25-07.52.53:679][967]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.25-07.53.04:393][590]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2018.01.25-07.53.04:416][590]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-07.53.58:746][803]BlueprintLog: New page: Compile BP_Bomberman_GameMode
+[2018.01.25-07.53.59:626][829]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-07.53.59:656][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-07.53.59:656][829]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 7:53:59 AM)
+[2018.01.25-07.53.59:656][829]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-07.53.59:657][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001249s)
+[2018.01.25-07.53.59:658][829]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-07.53.59:658][829]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2018.01.25-07.53.59:658][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002281s)
+[2018.01.25-07.53.59:682][829]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-07.53.59:695][829]LogInit: FAudioDevice initialized.
+[2018.01.25-07.53.59:728][829]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-07.53.59:729][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-07.53.59
+[2018.01.25-07.53.59:729][829]LogWorld: Bringing up level for play took: 0.000583
+[2018.01.25-07.53.59:730][829]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-07.53.59:781][829]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.625
+[2018.01.25-07.53.59:877][829]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.53.59:877][829]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.53.59:877][829]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-07.53.59:877][829]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-07.54.02:910][995]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-07.54.02:936][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-07.54.02:936][995]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 7:54:02 AM)
+[2018.01.25-07.54.02:936][995]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-07.54.02:937][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001225s)
+[2018.01.25-07.54.02:938][995]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-07.54.02:938][995]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2018.01.25-07.54.02:938][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002044s)
+[2018.01.25-07.54.02:961][995]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-07.54.02:973][995]LogInit: FAudioDevice initialized.
+[2018.01.25-07.54.03:004][995]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-07.54.03:006][995]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-07.54.03
+[2018.01.25-07.54.03:006][995]LogWorld: Bringing up level for play took: 0.000570
+[2018.01.25-07.54.03:007][995]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-07.54.03:061][995]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level -0.095
+[2018.01.25-07.54.03:089][995]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.54.03:090][995]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.54.03:090][995]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-07.54.03:090][995]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-07.54.05:922][165]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.54.05:923][165]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.54.05:939][166]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.54.05:939][166]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.54.05:955][167]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.54.05:955][167]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.54.05:972][168]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.54.05:972][168]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.54.05:989][169]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.54.05:989][169]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.54.06:004][170]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.54.06:004][170]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.54.06:022][171]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.57.45:683][998]LogEditorTransaction: Undo Change Enum Pin Value
+[2018.01.25-07.57.46:099][ 21]LogEditorTransaction: Undo Create Pin Link
+[2018.01.25-07.57.46:671][ 54]LogEditorTransaction: Undo Move Node
+[2018.01.25-07.57.47:312][ 91]LogEditorTransaction: Undo Paste clipboard contents
+[2018.01.25-07.57.47:721][114]LogEditorTransaction: Undo Move Node
+[2018.01.25-07.57.48:846][180]LogEditorTransaction: Undo Break Pin Link
+[2018.01.25-07.58.14:835][717]BlueprintLog: New page: Compile BP_WinScreen
+[2018.01.25-07.58.15:434][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WinScreen" FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset" SILENT=true
+[2018.01.25-07.58.15:489][750]LogSavePackage: Save=31.73ms
+[2018.01.25-07.58.15:489][750]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_WinScreenD175E7014F344C5BB744F88B13DAB37D.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset'
+[2018.01.25-07.58.15:493][750]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset
+[2018.01.25-07.58.29:047][512]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-07.58.29:077][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-07.58.29:077][512]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 7:58:29 AM)
+[2018.01.25-07.58.29:077][512]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-07.58.29:078][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001322s)
+[2018.01.25-07.58.29:079][512]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-07.58.29:079][512]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2018.01.25-07.58.29:079][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002270s)
+[2018.01.25-07.58.29:103][512]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-07.58.29:117][512]LogInit: FAudioDevice initialized.
+[2018.01.25-07.58.29:149][512]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-07.58.29:150][512]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-07.58.29
+[2018.01.25-07.58.29:151][512]LogWorld: Bringing up level for play took: 0.000664
+[2018.01.25-07.58.29:152][512]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-07.58.29:200][512]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.044
+[2018.01.25-07.58.29:312][512]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.58.29:312][512]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.58.29:312][512]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-07.58.29:312][512]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-07.58.31:920][664]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.58.31:921][664]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.58.31:934][665]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.58.31:934][665]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.58.31:951][666]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.58.31:951][666]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.58.31:967][667]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.58.31:968][667]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.58.31:984][668]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.58.31:984][668]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.58.32:001][669]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-07.58.32:001][669]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-07.58.32:018][670]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.BP_HUD_C_4
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.00.49:080][352]LogEditorTransaction: Undo Move Node
+[2018.01.25-08.03.23:676][902]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Bomberman_Level' took 0.039
+[2018.01.25-08.03.23:679][902]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Bomberman_GameMode] ([1] browsable assets)...
+[2018.01.25-08.03.23:679][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bomberman_GameMode]
+[2018.01.25-08.03.23:751][902]LogSavePackage: Save=49.14ms
+[2018.01.25-08.03.23:751][902]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_Bomberman_GameMode_Auto17AF9CB994009097EC711EC866877F50A.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Autosaves/Game/Blueprints/BP_Bomberman_GameMode_Auto1.uasset'
+[2018.01.25-08.03.23:753][902]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Autosaves/Game/Blueprints/BP_Bomberman_GameMode_Auto1.uasset
+[2018.01.25-08.03.23:754][902]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_WinScreen] ([1] browsable assets)...
+[2018.01.25-08.03.23:754][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_WinScreen]
+[2018.01.25-08.03.23:804][902]LogSavePackage: Save=31.58ms
+[2018.01.25-08.03.23:804][902]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_WinScreen_Auto12098B6BE42EAD869CA8084A8A095EA40.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Autosaves/Game/Blueprints/BP_WinScreen_Auto1.uasset'
+[2018.01.25-08.03.23:806][902]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Autosaves/Game/Blueprints/BP_WinScreen_Auto1.uasset
+[2018.01.25-08.03.23:806][902]LogFileHelpers: Auto-saving content packages took 0.128
+[2018.01.25-08.04.57:164][989]BlueprintLog: New page: Compile BP_Bomberman_GameMode
+[2018.01.25-08.04.57:996][  8]LogSavePackage: Save=46.61ms
+[2018.01.25-08.04.57:996][  8]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_Bomberman_GameModeF86CA39D4E26327918DEEE843E50845C.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset'
+[2018.01.25-08.04.58:002][  8]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset
+[2018.01.25-08.06.29:090][431]BlueprintLog: New page: Compile BP_WinScreen
+[2018.01.25-08.06.29:893][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WinScreen" FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset" SILENT=true
+[2018.01.25-08.06.29:948][476]LogSavePackage: Save=36.33ms
+[2018.01.25-08.06.29:948][476]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_WinScreenB8D112244133C9C4B22D8EA4B8A9CF2A.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset'
+[2018.01.25-08.06.29:951][476]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset
+[2018.01.25-08.06.31:969][594]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-08.06.31:990][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-08.06.31:990][594]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 8:06:31 AM)
+[2018.01.25-08.06.31:990][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-08.06.31:992][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001363s)
+[2018.01.25-08.06.31:992][594]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-08.06.31:992][594]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2018.01.25-08.06.31:992][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002325s)
+[2018.01.25-08.06.32:019][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-08.06.32:031][594]LogInit: FAudioDevice initialized.
+[2018.01.25-08.06.32:067][594]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-08.06.32:068][594]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-08.06.32
+[2018.01.25-08.06.32:068][594]LogWorld: Bringing up level for play took: 0.000540
+[2018.01.25-08.06.32:070][594]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-08.06.32:118][594]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.962
+[2018.01.25-08.06.32:211][594]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.32:211][594]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.06.32:211][594]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-08.06.32:211][594]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-08.06.34:777][742]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.34:777][742]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.06.34:792][743]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.34:792][743]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.06.34:809][744]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.34:809][744]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.06.34:825][745]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.34:825][745]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.06.34:843][746]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.34:843][746]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.06.34:858][747]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.34:858][747]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.06.34:875][748]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.BP_HUD_C_5
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.06.47:820][513]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2018.01.25-08.06.53:167][572]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2018.01.25-08.06.58:353][604]Cmd: SELECT NONE
+[2018.01.25-08.06.59:212][654]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_C (BP_Wall43)
+[2018.01.25-08.07.55:720][ 61]LogHotReload: New module detected: UE4Editor-Bomberman-5481-Win64-DebugGame.dll
+[2018.01.25-08.07.56:409][ 64]LogHotReload: Starting Hot-Reload from IDE
+[2018.01.25-08.07.56:517][ 64]LogClass: Could not find existing class BombermanGameModeBase in package /Script/Bomberman for HotReload, assuming new class
+[2018.01.25-08.07.56:517][ 64]LogClass: Function ClearTile is new.
+[2018.01.25-08.07.56:517][ 64]LogClass: Function DropBomb is new.
+[2018.01.25-08.07.56:517][ 64]LogClass: Function DropPowerup is new.
+[2018.01.25-08.07.56:517][ 64]LogClass: Function ExplodeBomb is new.
+[2018.01.25-08.07.56:517][ 64]LogClass: Function GenerateLevel is new.
+[2018.01.25-08.07.56:517][ 64]LogClass: Function GetTileCoords is new.
+[2018.01.25-08.07.56:517][ 64]LogClass: Function ResetGame is new.
+[2018.01.25-08.07.56:522][ 64]LogClass: MapRow HotReload.
+[2018.01.25-08.07.56:534][ 64]LogHotReload: Re-instancing BombermanGameModeBase after hot-reload.
+[2018.01.25-08.07.56:820][ 64]LogContentBrowser: Native class hierarchy updated for 'Bomberman' in 0.0007 seconds. Added 7 classes and 2 folders.
+[2018.01.25-08.07.56:823][ 64]Display: HotReload successful (20 functions remapped  1 scriptstructs remapped)
+[2018.01.25-08.07.57:149][ 64]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2372 classes and 525 folders.
+[2018.01.25-08.07.57:153][ 64]Display: HotReload took  0.7s.
+[2018.01.25-08.10.34:488][579]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-08.10.34:510][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-08.10.34:510][579]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 8:10:34 AM)
+[2018.01.25-08.10.34:510][579]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-08.10.34:511][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001138s)
+[2018.01.25-08.10.34:512][579]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-08.10.34:512][579]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.01.25-08.10.34:513][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002130s)
+[2018.01.25-08.10.34:579][579]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-08.10.34:595][579]LogInit: FAudioDevice initialized.
+[2018.01.25-08.10.34:631][579]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-08.10.34:632][579]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-08.10.34
+[2018.01.25-08.10.34:632][579]LogWorld: Bringing up level for play took: 0.000577
+[2018.01.25-08.10.34:634][579]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-08.10.34:635][579]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level -0.521
+[2018.01.25-08.10.34:732][579]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.10.34:733][579]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.10.34:733][579]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-08.10.34:733][579]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-08.10.34:745][580]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.10.34:745][580]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.10.34:745][580]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-08.10.34:745][580]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-08.10.34:762][581]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.10.34:762][581]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.10.34:762][581]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-08.10.34:762][581]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-08.10.34:793][582]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.10.34:793][582]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.10.34:793][582]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-08.10.34:793][582]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-08.10.34:810][583]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.BP_HUD_C_6
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.06:917][427]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-08.11.06:936][427]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-08.11.06:953][427]LogPlayLevel: [PlayLevel] Compiling BP_Bomberman_GameMode before play...
+[2018.01.25-08.11.07:164][427]LogPlayLevel: PlayLevel: Blueprint regeneration took 228 ms (1 blueprints)
+[2018.01.25-08.11.07:165][427]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 8:11:07 AM)
+[2018.01.25-08.11.07:165][427]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-08.11.07:166][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001067s)
+[2018.01.25-08.11.07:166][427]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-08.11.07:166][427]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2018.01.25-08.11.07:167][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.001995s)
+[2018.01.25-08.11.07:188][427]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-08.11.07:199][427]LogInit: FAudioDevice initialized.
+[2018.01.25-08.11.07:230][427]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-08.11.07:232][427]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-08.11.07
+[2018.01.25-08.11.07:232][427]LogWorld: Bringing up level for play took: 0.000530
+[2018.01.25-08.11.07:233][427]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-08.11.07:282][427]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.126
+[2018.01.25-08.11.07:289][427]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.07:289][427]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.11.07:289][427]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-08.11.07:289][427]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-08.11.22:714][342]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.22:714][342]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.11.22:730][343]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.22:730][343]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.11.22:747][344]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.22:747][344]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.11.22:764][345]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.22:764][345]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.11.22:780][346]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.22:780][346]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.11.22:797][347]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.11.22:797][347]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.11.22:813][348]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.BP_HUD_C_7
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.12.55:199][651]BlueprintLog: New page: Compile BP_Bomberman_GameMode
+[2018.01.25-08.12.56:783][714]LogSavePackage: Save=47.78ms
+[2018.01.25-08.12.56:783][714]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_Bomberman_GameMode6110463E4175B8D05E5A07BFE3C37556.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset'
+[2018.01.25-08.12.56:788][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset
+[2018.01.25-08.24.37:461][312]LogHotReload: New module detected: UE4Editor-Bomberman-1577-Win64-DebugGame.dll
+[2018.01.25-08.24.38:475][316]LogHotReload: Starting Hot-Reload from IDE
+[2018.01.25-08.24.38:572][316]LogClass: Could not find existing class BombermanGameModeBase in package /Script/Bomberman for HotReload, assuming new class
+[2018.01.25-08.24.38:572][316]LogClass: Function ClearTile is new.
+[2018.01.25-08.24.38:573][316]LogClass: Function DropBomb is new.
+[2018.01.25-08.24.38:573][316]LogClass: Function DropPowerup is new.
+[2018.01.25-08.24.38:573][316]LogClass: Function ExplodeBomb is new.
+[2018.01.25-08.24.38:573][316]LogClass: Function GenerateLevel is new.
+[2018.01.25-08.24.38:573][316]LogClass: Function GetTileCoords is new.
+[2018.01.25-08.24.38:573][316]LogClass: Function ResetGame is new.
+[2018.01.25-08.24.38:576][316]LogClass: MapRow HotReload.
+[2018.01.25-08.24.38:583][316]LogHotReload: Re-instancing BombermanGameModeBase after hot-reload.
+[2018.01.25-08.24.38:894][316]LogContentBrowser: Native class hierarchy updated for 'Bomberman' in 0.0007 seconds. Added 7 classes and 2 folders.
+[2018.01.25-08.24.38:897][316]Display: HotReload successful (20 functions remapped  1 scriptstructs remapped)
+[2018.01.25-08.24.39:192][316]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2372 classes and 525 folders.
+[2018.01.25-08.24.39:196][316]Display: HotReload took  0.7s.
+[2018.01.25-08.24.55:537][365]LogHotReload: New module detected: UE4Editor-Bomberman-5380-Win64-DebugGame.dll
+[2018.01.25-08.24.56:551][369]LogHotReload: Starting Hot-Reload from IDE
+[2018.01.25-08.24.56:692][369]LogClass: MapRow HotReload.
+[2018.01.25-08.24.56:697][369]LogContentBrowser: Native class hierarchy updated for 'Bomberman' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2018.01.25-08.24.56:700][369]Display: HotReload successful (27 functions remapped  1 scriptstructs remapped)
+[2018.01.25-08.24.57:036][369]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2372 classes and 525 folders.
+[2018.01.25-08.24.57:040][369]Display: HotReload took  0.5s.
+[2018.01.25-08.25.30:422][ 64]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.25-08.25.57:999][698]LogSavePackage: Save=50.29ms
+[2018.01.25-08.25.57:999][698]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_Bomberman_GameMode661329974B8DB8859B6E86AA4E6C720E.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset'
+[2018.01.25-08.25.58:003][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset
+[2018.01.25-08.25.58:384][718]BlueprintLog: New page: Compile BP_Bomberman_GameMode
+[2018.01.25-08.28.11:700][568]BlueprintLog: New page: Compile BP_WinScreen
+[2018.01.25-08.28.12:445][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WinScreen" FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset" SILENT=true
+[2018.01.25-08.28.12:508][609]LogSavePackage: Save=41.77ms
+[2018.01.25-08.28.12:508][609]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_WinScreen3BAAE5A148DAD1CDC4CDE9B3C287B14A.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset'
+[2018.01.25-08.28.12:512][609]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset
+[2018.01.25-08.29.45:737][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WinScreen" FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset" SILENT=true
+[2018.01.25-08.29.45:794][172]LogSavePackage: Save=41.84ms
+[2018.01.25-08.29.45:794][172]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_WinScreenA0BE258547B731323B709CAB0EA222BD.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset'
+[2018.01.25-08.29.45:798][172]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset
+[2018.01.25-08.29.46:152][193]BlueprintLog: New page: Compile BP_WinScreen
+[2018.01.25-08.29.51:313][496]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-08.29.51:332][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-08.29.51:332][496]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 8:29:51 AM)
+[2018.01.25-08.29.51:332][496]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-08.29.51:334][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001280s)
+[2018.01.25-08.29.51:334][496]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-08.29.51:334][496]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2018.01.25-08.29.51:335][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002285s)
+[2018.01.25-08.29.51:362][496]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-08.29.51:375][496]LogInit: FAudioDevice initialized.
+[2018.01.25-08.29.51:411][496]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-08.29.51:412][496]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-08.29.51
+[2018.01.25-08.29.51:412][496]LogWorld: Bringing up level for play took: 0.000542
+[2018.01.25-08.29.51:414][496]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-08.29.51:464][496]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.308
+[2018.01.25-08.29.51:564][496]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.29.51:564][496]LogScript: Warning: Accessed None trying to read property Red Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.29.51:564][496]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
+[2018.01.25-08.29.51:564][496]LogScript: Warning: Accessed None trying to read property Blue Player
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
+[2018.01.25-08.30.00:212][ 11]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.30.00:212][ 11]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.30.00:229][ 12]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.30.00:229][ 12]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.30.00:245][ 13]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.30.00:245][ 13]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.30.00:262][ 14]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.30.00:262][ 14]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.30.00:279][ 15]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.30.00:279][ 15]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.30.00:295][ 16]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.30.00:295][ 16]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-08.30.00:312][ 17]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.BP_HUD_C_8
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-08.30.04:754][230]LogWindows: Error: === Critical error: ===
+[2018.01.25-08.30.04:754][230]LogWindows: Error: 
+[2018.01.25-08.30.04:754][230]LogWindows: Error: Fatal error!
+[2018.01.25-08.30.04:754][230]LogWindows: Error: 
+[2018.01.25-08.30.04:754][230]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000154
+[2018.01.25-08.30.04:754][230]LogWindows: Error: 
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000008BE4284 UE4Editor-Engine.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000008C9B9C8 UE4Editor-Engine.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000EB76CA4B UE4Editor-Bomberman-5380-Win64-DebugGame.dll!ABombermanGameModeBase::ResetGame() [c:\users\luke\documents\unreal projects\bomberman-ue4\bomberman\source\bomberman\bombermangamemodebase.cpp:257]
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000EB76F0F2 UE4Editor-Bomberman-5380-Win64-DebugGame.dll!ABombermanGameModeBase::execResetGame() [c:\users\luke\documents\unreal projects\bomberman-ue4\bomberman\source\bomberman\bombermangamemodebase.h:45]
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000137B5264 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000013979B74 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000001398FA41 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000013991B72 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000001397A57E UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000013991B72 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000137B5264 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000013990F66 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000011DBE139 UE4Editor-UMG.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000011EBC83F UE4Editor-UMG.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000011D9838E UE4Editor-UMG.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000011D9A749 UE4Editor-UMG.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000011E43221 UE4Editor-UMG.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000013342B27 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000001336EA04 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000013185EFC UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000013158095 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000131F28A7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000131DB092 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000131CD902 UE4Editor-Slate.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000003514E54B UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000035141A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x00000000351503EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000003513D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000004055B85D USER32.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000004055B1EF USER32.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000035151516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000009CAD50C8 UE4Editor.exe!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000009CAE5430 UE4Editor.exe!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000009CAE54AA UE4Editor.exe!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000009CAF2379 UE4Editor.exe!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000009CAF3D57 UE4Editor.exe!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x0000000040821FE4 KERNEL32.DLL!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000004096EFB1 ntdll.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: [Callstack] 0x000000004096EFB1 ntdll.dll!UnknownFunction []
+[2018.01.25-08.30.04:754][230]LogWindows: Error: 
+[2018.01.25-08.30.04:771][230]LogExit: Executing StaticShutdownAfterError
+[2018.01.25-08.30.04:777][230]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.01.25-08.30.04:777][230]Log file closed, 01/25/18 08:30:04

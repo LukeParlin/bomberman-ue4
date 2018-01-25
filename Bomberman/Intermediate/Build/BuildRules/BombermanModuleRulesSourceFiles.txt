@@ -1,3 +1,0 @@
-C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Source\Bomberman\Bomberman.Build.cs
-C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Source\Bomberman.Target.cs
-C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Source\BombermanEditor.Target.cs

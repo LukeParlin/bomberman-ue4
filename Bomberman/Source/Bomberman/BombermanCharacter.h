@@ -19,13 +19,13 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 playerID;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(Editanywhere, BlueprintReadWrite)
 	int32 numBombs = 1;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 bombRange = 1;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float moveSpeed;
 
 	UPROPERTY()
@@ -51,7 +51,7 @@ public:
 	void DropBomb();
 
 	//Add one to numBombs
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION()
 	void AddBomb();
 
 /////////////////////////
@@ -65,11 +65,19 @@ public:
 	UFUNCTION()
 	void SetPlayerID(int32 id);
 
-	//Get and set the player's number of bombs
+	//Get the player's number of bombs
 	UFUNCTION()
 	int32 GetNumBombs();
 
+	//Get the player's bomb range
 	UFUNCTION()
-	void SetNumBombs(int32 num);
+	int32 GetBombRange();
+
+	//Get and set the player's movement speed
+	UFUNCTION()
+	float GetMoveSpeed();
+
+	UFUNCTION(BlueprintCallable)
+	void SetMoveSpeed(float speed);
 
 };

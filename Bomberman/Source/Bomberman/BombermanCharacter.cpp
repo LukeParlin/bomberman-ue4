@@ -52,7 +52,20 @@ int32 ABombermanCharacter::GetNumBombs()
 	return numBombs;
 }
 
-void ABombermanCharacter::SetNumBombs(int32 num)
+//Get the player's bomb range
+int32 ABombermanCharacter::GetBombRange()
 {
-	numBombs = num;
+	return bombRange;
+}
+
+//Get and set the player's movement speed
+float ABombermanCharacter::GetMoveSpeed()
+{
+	return moveSpeed;
+}
+
+void ABombermanCharacter::SetMoveSpeed(float speed)
+{
+	moveSpeed = speed;
+	MoveComponent->MaxWalkSpeed = speed;
 }

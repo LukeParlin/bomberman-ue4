@@ -15,12 +15,12 @@ struct FIntPoint;
 #endif
 #define BOMBERMAN_BombermanGameModeBase_generated_h
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_27_GENERATED_BODY \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_29_GENERATED_BODY \
 	friend BOMBERMAN_API class UScriptStruct* Z_Construct_UScriptStruct_FMapRow(); \
 	BOMBERMAN_API static class UScriptStruct* StaticStruct();
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_RPC_WRAPPERS \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetTileCoords) \
 	{ \
@@ -38,6 +38,24 @@ struct FIntPoint;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		this->GenerateLevel(Z_Param_levelWidth,Z_Param_levelHeight); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execClearTile) \
+	{ \
+		P_GET_STRUCT(FIntPoint,Z_Param_tileCoord); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ClearTile(Z_Param_tileCoord); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDropPowerup) \
+	{ \
+		P_GET_STRUCT(FIntPoint,Z_Param_powerupCoord); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->DropPowerup(Z_Param_powerupCoord); \
 		P_NATIVE_END; \
 	} \
  \
@@ -63,7 +81,7 @@ struct FIntPoint;
 	}
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetTileCoords) \
 	{ \
@@ -81,6 +99,24 @@ struct FIntPoint;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		this->GenerateLevel(Z_Param_levelWidth,Z_Param_levelHeight); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execClearTile) \
+	{ \
+		P_GET_STRUCT(FIntPoint,Z_Param_tileCoord); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ClearTile(Z_Param_tileCoord); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDropPowerup) \
+	{ \
+		P_GET_STRUCT(FIntPoint,Z_Param_powerupCoord); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->DropPowerup(Z_Param_powerupCoord); \
 		P_NATIVE_END; \
 	} \
  \
@@ -106,7 +142,7 @@ struct FIntPoint;
 	}
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_INCLASS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABombermanGameModeBase(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ABombermanGameModeBase(); \
@@ -116,7 +152,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_INCLASS \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_INCLASS \
 private: \
 	static void StaticRegisterNativesABombermanGameModeBase(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ABombermanGameModeBase(); \
@@ -126,7 +162,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_STANDARD_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABombermanGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABombermanGameModeBase) \
@@ -139,7 +175,7 @@ private: \
 public:
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_ENHANCED_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABombermanGameModeBase(ABombermanGameModeBase&&); \
@@ -150,7 +186,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABombermanGameModeBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABombermanGameModeBase)
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_PRIVATE_PROPERTY_OFFSET \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpawnP1() { return STRUCT_OFFSET(ABombermanGameModeBase, SpawnP1); } \
 	FORCEINLINE static uint32 __PPO__SpawnP2() { return STRUCT_OFFSET(ABombermanGameModeBase, SpawnP2); } \
 	FORCEINLINE static uint32 __PPO__playerSpawnOffset() { return STRUCT_OFFSET(ABombermanGameModeBase, playerSpawnOffset); } \
@@ -158,31 +194,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABombermanGameModeBase); \
 	FORCEINLINE static uint32 __PPO__SpawnWall() { return STRUCT_OFFSET(ABombermanGameModeBase, SpawnWall); } \
 	FORCEINLINE static uint32 __PPO__SpawnBreakable() { return STRUCT_OFFSET(ABombermanGameModeBase, SpawnBreakable); } \
 	FORCEINLINE static uint32 __PPO__SpawnBomb() { return STRUCT_OFFSET(ABombermanGameModeBase, SpawnBomb); } \
+	FORCEINLINE static uint32 __PPO__SpawnExplosionEffect() { return STRUCT_OFFSET(ABombermanGameModeBase, SpawnExplosionEffect); } \
+	FORCEINLINE static uint32 __PPO__SpawnPowerups() { return STRUCT_OFFSET(ABombermanGameModeBase, SpawnPowerups); } \
 	FORCEINLINE static uint32 __PPO__mapSize() { return STRUCT_OFFSET(ABombermanGameModeBase, mapSize); } \
 	FORCEINLINE static uint32 __PPO__mapTiles() { return STRUCT_OFFSET(ABombermanGameModeBase, mapTiles); } \
 	FORCEINLINE static uint32 __PPO__players() { return STRUCT_OFFSET(ABombermanGameModeBase, players); } \
 	FORCEINLINE static uint32 __PPO__playerControllers() { return STRUCT_OFFSET(ABombermanGameModeBase, playerControllers); }
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_40_PROLOG
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_GENERATED_BODY_LEGACY \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_42_PROLOG
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_RPC_WRAPPERS \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_INCLASS \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_STANDARD_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_RPC_WRAPPERS \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_INCLASS \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_GENERATED_BODY \
+#define Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_INCLASS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_BombermanGameModeBase_h_43_ENHANCED_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_INCLASS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_BombermanGameModeBase_h_45_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

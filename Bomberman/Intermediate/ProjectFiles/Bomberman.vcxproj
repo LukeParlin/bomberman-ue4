@@ -425,6 +425,8 @@
 		<ClInclude Include="..\..\Source\Bomberman\BombermanGameModeBase.h" />
 		<ClCompile Include="..\..\Source\Bomberman\BombermanGameViewportClient.cpp" />
 		<ClInclude Include="..\..\Source\Bomberman\BombermanGameViewportClient.h" />
+		<ClCompile Include="..\..\Source\Bomberman\Powerup.cpp" />
+		<ClInclude Include="..\..\Source\Bomberman\Powerup.h" />
 		<ClCompile Include="..\..\Source\Bomberman\Tile.cpp" />
 		<ClInclude Include="..\..\Source\Bomberman\Tile.h" />
 		<ClCompile Include="..\..\Source\Bomberman\TileObject.cpp" />

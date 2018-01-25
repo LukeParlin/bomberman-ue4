@@ -32,7 +32,6 @@ void ABombermanGameModeBase::Tick(float DeltaTime)
 		GEngine->AddOnScreenDebugMessage(1, 2.0f, FColor::Green, FString::Printf(TEXT("Player 1 x: %i, y: %i"), p1Coords.X, p1Coords.Y));
 		GEngine->AddOnScreenDebugMessage(2, 2.0f, FColor::Green, FString::Printf(TEXT("Player 2 x: %i, y: %i"), p2Coords.X, p2Coords.Y));
 	#endif*/
-
 }
 
 //Spawn a bomb at a player's position and subtract a bomb from that player
@@ -42,7 +41,6 @@ void ABombermanGameModeBase::DropBomb(int32 playerID, int32 radius)
 	if (world)
 	{
 		FVector spawnLocation = FVector::ZeroVector;
-		FRotator spawnRotator = FRotator::ZeroRotator;
 
 		FIntPoint bombCoord = GetTileCoords(players[playerID]->GetActorLocation());
 		//If the player has bombs remaining, and there's not already an object on this tile, spawn a bomb
@@ -52,7 +50,7 @@ void ABombermanGameModeBase::DropBomb(int32 playerID, int32 radius)
 			{
 				spawnLocation = mapTiles[bombCoord.Y].rowTiles[bombCoord.X]->GetActorLocation();
 
-				ABomb* newBomb = world->SpawnActor<ABomb>(SpawnBomb, spawnLocation, spawnRotator);
+				ABomb* newBomb = world->SpawnActor<ABomb>(SpawnBomb, spawnLocation, FRotator::ZeroRotator);
 				newBomb->SetTileCoord(bombCoord);
 				newBomb->SetPlayerID(playerID);
 				newBomb->SetExplosionRadius(radius);
@@ -67,8 +65,102 @@ void ABombermanGameModeBase::DropBomb(int32 playerID, int32 radius)
 //Trigger a bomb explosion from a specified point and refund the player's bomb
 void ABombermanGameModeBase::ExplodeBomb(int32 playerID, int32 radius, FIntPoint bombCoord)
 {
+	UWorld* world = GetWorld();
+	FVector location; //Temporary location variable we will use to spawn effects	
+
+	//Quick array of points representing all 4 cardinal directions:
+	FIntPoint dir[4]{
+		FIntPoint(0,1),		//UP
+		FIntPoint(1,0) ,	//RIGHT
+		FIntPoint(0,-1) ,	//DOWN
+		FIntPoint(-1,0)		//LEFT
+	};
+
+	//The for loop represents each of the cardinal directions: UP, DOWN, LEFT, and RIGHT	
+	for (int i = 0; i < 4; ++i)
+	{
+		bool hitWall = false; //Has the explosion hit a wall?
+		int dist = 1; //Distance away from the bomb in our current direction
+
+		do {
+			//First, get the next coordinates. I know this line is unreadable, so bear with me...
+			//	mapTiles is a TArray containing each ROW of the map
+			//	rowTiles is a TArray of ATile* representing each tile in the row
+			//	bombCoord represents the location we are checking our explosion from
+			//	dir[i] represents a unit-length vector in a cardinal direction
+			//	we multiply dir[i] by dist to get a tile in our current direction, at our current check radius
+			FIntPoint adjacentCoords = FIntPoint(bombCoord.X + dir[i].X * dist, bombCoord.Y + dir[i].Y * dist);
+			ATile* adjacentTile = mapTiles[adjacentCoords.Y].rowTiles[adjacentCoords.X];
+
+			//If that tile has an object on it, check if the object is breakable
+			if (adjacentTile->GetChildObject() != nullptr)
+			{
+				if (adjacentTile->GetChildObject()->GetDestructible())
+				{
+					//Destroy the TileObject (if it's a bomb, this will trigger another explosion)
+					ATileObject* doomedObject = adjacentTile->GetChildObject();
+					adjacentTile->SetChildObject(nullptr);	//The reason we SetChildObject(null) BEFORE Destroy is that powerups spawn when walls are destroyed.
+					doomedObject->Destroy();				//If we call SetChildObject(null) FIRST, the powerup has already been added to childObject, and we lose its pointer
+				}
+				else
+				{
+					//We have hit a wall, so make sure we don't continue checking in this direction
+					hitWall = true;
+
+					//Note:
+					//Because our level is surrounded by unbreakable walls,
+					//we don't need to error-check our coordinates
+					//(we'll never go below 0 or above the map width/height)
+				}
+			}
+
+			//Spawn an explosion effect on the tile we just checked, so long as it wasn't a wall
+			if (!hitWall && world && SpawnExplosionEffect)
+			{
+				location = adjacentTile->GetActorLocation();
+				world->SpawnActor<AActor>(SpawnExplosionEffect, location, FRotator::ZeroRotator);
+			}
+
+			++dist; //increment the distance for our next check
+		//If we haven't reached the explosion radius OR hit an unbreakable wall, repeat the process
+		} while (dist <= radius && !hitWall);
+	}
+
+	if (world && SpawnExplosionEffect)
+	{
+		//Spawn an explosion effect on the site of the explosion
+		location = mapTiles[bombCoord.Y].rowTiles[bombCoord.X]->GetActorLocation();
+		world->SpawnActor<AActor>(SpawnExplosionEffect, location, FRotator::ZeroRotator);
+	}
+
+	//Finally, remove the bomb which just blew up from its tile so we can place another bomb there later
 	mapTiles[bombCoord.Y].rowTiles[bombCoord.X]->SetChildObject(nullptr);
-	players[playerID]->AddBomb();
+	players[playerID]->AddBomb(); //Also refund the appropriate player's bomb
+}
+
+//Spawn a powerup at a breakable wall's position
+void ABombermanGameModeBase::DropPowerup(FIntPoint powerupCoord)
+{
+	UWorld* world = GetWorld();
+	if (world)
+	{
+		int index = FMath::RandRange(0, SpawnPowerups.Num() - 1);
+		if (SpawnPowerups[index])
+		{
+			//Get the location of the tile on which the Powerup will spawn
+			FVector location = mapTiles[powerupCoord.Y].rowTiles[powerupCoord.X]->GetActorLocation();
+			APowerup* newPowerup = world->SpawnActor<APowerup>(SpawnPowerups[index], location, FRotator::ZeroRotator);
+			newPowerup->SetTileCoord(powerupCoord);
+
+			mapTiles[powerupCoord.Y].rowTiles[powerupCoord.X]->SetChildObject(newPowerup);
+		}
+	}
+}
+
+//Clear a tile after its childObject has been destroyed
+void ABombermanGameModeBase::ClearTile(FIntPoint tileCoord)
+{
+	mapTiles[tileCoord.Y].rowTiles[tileCoord.X]->SetChildObject(nullptr);
 }
 
 //Spawn tiles in the game world to create the level
@@ -80,6 +172,10 @@ void ABombermanGameModeBase::GenerateLevel(int32 levelWidth, int32 levelHeight)
 		//Capture the PlayerControllers for Player 1 and Player 2
 		playerControllers.Add(world->GetFirstPlayerController());
 		playerControllers.Add(UGameplayStatics::CreatePlayer(this, -1, true));
+
+		//Position the Camera according to the map size
+		FVector cameraLocation = FVector(TILE_HEIGHT * (levelHeight - 1) / 2, TILE_WIDTH * (levelWidth - 1) / 2, levelHeight * 370);	//370 IS A MAGIC NUMBER
+		playerControllers[0]->GetViewTarget()->SetActorLocation(cameraLocation);											//WHICH ZOOMS THE CAMERA APPROPRIATELY
 
 		FVector spawnLocation = FVector::ZeroVector;
 		FRotator spawnRotator = FRotator::ZeroRotator;
@@ -121,7 +217,7 @@ void ABombermanGameModeBase::GenerateLevel(int32 levelWidth, int32 levelHeight)
 				{
 					if (SpawnP2)
 					{
-						
+
 						if (playerControllers[1])
 						{
 							players.Add(world->SpawnActor<ABombermanCharacter>(SpawnP2, spawnLocation, spawnRotator));
@@ -130,7 +226,7 @@ void ABombermanGameModeBase::GenerateLevel(int32 levelWidth, int32 levelHeight)
 						}
 					}
 				}
-				else if (FMath::RandRange(0.0f, 1.0f) < 0.3f) //Spawn destructible walls on 30% of the remaining tiles
+				else if (FMath::RandRange(0.0f, 1.0f) < 0.4f) //Spawn destructible walls on 40% of the remaining tiles
 				{
 					if (SpawnBreakable)
 					{

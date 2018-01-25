@@ -8,8 +8,10 @@
 #include "Engine/Engine.h"
 #include "Engine/World.h"
 #include "Kismet/GameplayStatics.h"
+
 #include "Bomb.h"
 #include "BombermanCharacter.h"
+#include "Powerup.h"
 #include "Tile.h"
 #include "TileObject.h"
 
@@ -68,6 +70,12 @@ private:
 	TSubclassOf<ABomb> SpawnBomb;
 
 	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> SpawnExplosionEffect;
+
+	UPROPERTY(EditAnywhere)
+	TArray<TSubclassOf<APowerup>> SpawnPowerups;
+
+	UPROPERTY(EditAnywhere)
 	FIntPoint mapSize;
 
 	//////////////////
@@ -107,6 +115,14 @@ public:
 	//Trigger a bomb explosion from a specified point and refund the player's bomb
 	UFUNCTION(BlueprintCallable)
 	void ExplodeBomb(int32 playerID, int32 radius, FIntPoint bombCoord);
+
+	//Spawn a powerup at a breakable wall's position
+	UFUNCTION(BlueprintCallable)
+	void DropPowerup(FIntPoint powerupCoord);
+
+	//Clear a tile after its childObject has been destroyed
+	UFUNCTION(BlueprintCallable)
+	void ClearTile(FIntPoint tileCoord);
 
 //////////////////
 //HELPER FUNCTIONS

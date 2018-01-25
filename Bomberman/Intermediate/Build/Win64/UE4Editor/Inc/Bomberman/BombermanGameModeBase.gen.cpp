@@ -19,15 +19,19 @@ void EmptyLinkFunctionForGeneratedCodeBombermanGameModeBase() {}
 	BOMBERMAN_API UClass* Z_Construct_UClass_ABombermanGameModeBase_NoRegister();
 	BOMBERMAN_API UClass* Z_Construct_UClass_ABombermanGameModeBase();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
-	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_DropBomb();
-	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_ExplodeBomb();
+	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_ClearTile();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FIntPoint();
+	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_DropBomb();
+	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_DropPowerup();
+	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_ExplodeBomb();
 	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_GenerateLevel();
 	BOMBERMAN_API UFunction* Z_Construct_UFunction_ABombermanGameModeBase_GetTileCoords();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController_NoRegister();
 	BOMBERMAN_API UClass* Z_Construct_UClass_ABombermanCharacter_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	BOMBERMAN_API UClass* Z_Construct_UClass_APowerup_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	BOMBERMAN_API UClass* Z_Construct_UClass_ABomb_NoRegister();
 	BOMBERMAN_API UClass* Z_Construct_UClass_ATileObject_NoRegister();
 // End Cross Module References
@@ -98,12 +102,38 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 	{
 		UClass* Class = ABombermanGameModeBase::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ClearTile", (Native)&ABombermanGameModeBase::execClearTile },
 			{ "DropBomb", (Native)&ABombermanGameModeBase::execDropBomb },
+			{ "DropPowerup", (Native)&ABombermanGameModeBase::execDropPowerup },
 			{ "ExplodeBomb", (Native)&ABombermanGameModeBase::execExplodeBomb },
 			{ "GenerateLevel", (Native)&ABombermanGameModeBase::execGenerateLevel },
 			{ "GetTileCoords", (Native)&ABombermanGameModeBase::execGetTileCoords },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_ABombermanGameModeBase_ClearTile()
+	{
+		struct BombermanGameModeBase_eventClearTile_Parms
+		{
+			FIntPoint tileCoord;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_tileCoord = { UE4CodeGen_Private::EPropertyClass::Struct, "tileCoord", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BombermanGameModeBase_eventClearTile_Parms, tileCoord), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_tileCoord,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
+				{ "ToolTip", "Clear a tile after its childObject has been destroyed" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ABombermanGameModeBase, "ClearTile", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04820401, sizeof(BombermanGameModeBase_eventClearTile_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_ABombermanGameModeBase_DropBomb()
 	{
@@ -128,6 +158,30 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ABombermanGameModeBase, "DropBomb", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(BombermanGameModeBase_eventDropBomb_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ABombermanGameModeBase_DropPowerup()
+	{
+		struct BombermanGameModeBase_eventDropPowerup_Parms
+		{
+			FIntPoint powerupCoord;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FStructPropertyParams NewProp_powerupCoord = { UE4CodeGen_Private::EPropertyClass::Struct, "powerupCoord", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(BombermanGameModeBase_eventDropPowerup_Parms, powerupCoord), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_powerupCoord,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
+				{ "ToolTip", "Spawn a powerup at a breakable wall's position" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ABombermanGameModeBase, "DropPowerup", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04820401, sizeof(BombermanGameModeBase_eventDropPowerup_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -230,7 +284,9 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				(UObject* (*)())Z_Construct_UPackage__Script_Bomberman,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_ABombermanGameModeBase_ClearTile, "ClearTile" }, // 1616297443
 				{ &Z_Construct_UFunction_ABombermanGameModeBase_DropBomb, "DropBomb" }, // 1301063802
+				{ &Z_Construct_UFunction_ABombermanGameModeBase_DropPowerup, "DropPowerup" }, // 3819030760
 				{ &Z_Construct_UFunction_ABombermanGameModeBase_ExplodeBomb, "ExplodeBomb" }, // 3717985365
 				{ &Z_Construct_UFunction_ABombermanGameModeBase_GenerateLevel, "GenerateLevel" }, // 1278586298
 				{ &Z_Construct_UFunction_ABombermanGameModeBase_GetTileCoords, "GetTileCoords" }, // 2476320512
@@ -275,6 +331,21 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 			};
 #endif
 			static const UE4CodeGen_Private::FStructPropertyParams NewProp_mapSize = { UE4CodeGen_Private::EPropertyClass::Struct, "mapSize", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, mapSize), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_mapSize_MetaData, ARRAY_COUNT(NewProp_mapSize_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnPowerups_MetaData[] = {
+				{ "Category", "BombermanGameModeBase" },
+				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FArrayPropertyParams NewProp_SpawnPowerups = { UE4CodeGen_Private::EPropertyClass::Array, "SpawnPowerups", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnPowerups), METADATA_PARAMS(NewProp_SpawnPowerups_MetaData, ARRAY_COUNT(NewProp_SpawnPowerups_MetaData)) };
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnPowerups_Inner = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnPowerups", RF_Public|RF_Transient|RF_MarkAsNative, 0x0004000000000000, 1, nullptr, 0, Z_Construct_UClass_APowerup_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnExplosionEffect_MetaData[] = {
+				{ "Category", "BombermanGameModeBase" },
+				{ "ModuleRelativePath", "BombermanGameModeBase.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpawnExplosionEffect = { UE4CodeGen_Private::EPropertyClass::Class, "SpawnExplosionEffect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0044000000000001, 1, nullptr, STRUCT_OFFSET(ABombermanGameModeBase, SpawnExplosionEffect), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_SpawnExplosionEffect_MetaData, ARRAY_COUNT(NewProp_SpawnExplosionEffect_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnBomb_MetaData[] = {
 				{ "Category", "BombermanGameModeBase" },
@@ -333,6 +404,9 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_mapTiles,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_mapTiles_Inner,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_mapSize,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpawnPowerups,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpawnPowerups_Inner,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpawnExplosionEffect,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpawnBomb,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpawnBreakable,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpawnWall,
@@ -359,7 +433,7 @@ static struct FScriptStruct_Bomberman_StaticRegisterNativesFMapRow
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABombermanGameModeBase, 1128254539);
+	IMPLEMENT_CLASS(ABombermanGameModeBase, 1420068850);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABombermanGameModeBase(Z_Construct_UClass_ABombermanGameModeBase, &ABombermanGameModeBase::StaticClass, TEXT("/Script/Bomberman"), TEXT("ABombermanGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABombermanGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

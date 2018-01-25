@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Bomberman.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{1E7EA6D8-7E49-424E-8D20-6B5DD899D429}</UniqueIdentifier>
+			<UniqueIdentifier>{2D954BAD-BF42-4E2C-85C8-8199B086B0FE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Bomberman.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{B49D4721-4016-48C2-8C5F-29E97ABE9396}</UniqueIdentifier>
+			<UniqueIdentifier>{F3EDDA0F-0164-4CD1-8771-3571F07138CF}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Bomberman">
-			<UniqueIdentifier>{927E960F-3E2F-4667-956F-B61735A937CC}</UniqueIdentifier>
+			<UniqueIdentifier>{C560EF2C-AD33-4669-9939-2E6D300A661E}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Bomberman\Bomb.cpp">
 			<Filter>Source\Bomberman</Filter>
@@ -61,6 +61,12 @@
 			<Filter>Source\Bomberman</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Bomberman\BombermanGameViewportClient.h">
+			<Filter>Source\Bomberman</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Bomberman\Powerup.cpp">
+			<Filter>Source\Bomberman</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bomberman\Powerup.h">
 			<Filter>Source\Bomberman</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\Bomberman\Tile.cpp">

@@ -15,12 +15,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Bomberman_Source_Bomberman_BombermanCharacter_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execSetNumBombs) \
+	DECLARE_FUNCTION(execSetMoveSpeed) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_num); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_speed); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->SetNumBombs(Z_Param_num); \
+		this->SetMoveSpeed(Z_Param_speed); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMoveSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetMoveSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBombRange) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetBombRange(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -68,12 +84,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Bomberman_Source_Bomberman_BombermanCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execSetNumBombs) \
+	DECLARE_FUNCTION(execSetMoveSpeed) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_num); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_speed); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		this->SetNumBombs(Z_Param_num); \
+		this->SetMoveSpeed(Z_Param_speed); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMoveSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetMoveSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetBombRange) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetBombRange(); \
 		P_NATIVE_END; \
 	} \
  \

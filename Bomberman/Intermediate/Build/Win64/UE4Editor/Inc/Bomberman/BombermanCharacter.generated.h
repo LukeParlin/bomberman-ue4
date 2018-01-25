@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOMBERMAN_BombermanCharacter_generated_h
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_RPC_WRAPPERS \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetMoveSpeed) \
 	{ \
@@ -82,7 +82,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetMoveSpeed) \
 	{ \
@@ -151,7 +151,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_INCLASS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABombermanCharacter(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ABombermanCharacter(); \
@@ -161,7 +161,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_INCLASS \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesABombermanCharacter(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ABombermanCharacter(); \
@@ -171,7 +171,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_STANDARD_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABombermanCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABombermanCharacter) \
@@ -184,7 +184,7 @@ private: \
 public:
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_ENHANCED_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABombermanCharacter(ABombermanCharacter&&); \
@@ -195,7 +195,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABombermanCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABombermanCharacter)
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__playerID() { return STRUCT_OFFSET(ABombermanCharacter, playerID); } \
 	FORCEINLINE static uint32 __PPO__numBombs() { return STRUCT_OFFSET(ABombermanCharacter, numBombs); } \
 	FORCEINLINE static uint32 __PPO__bombRange() { return STRUCT_OFFSET(ABombermanCharacter, bombRange); } \
@@ -203,25 +203,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABombermanCharacter); \
 	FORCEINLINE static uint32 __PPO__MoveComponent() { return STRUCT_OFFSET(ABombermanCharacter, MoveComponent); }
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_10_PROLOG
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_GENERATED_BODY_LEGACY \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_9_PROLOG
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_RPC_WRAPPERS \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_INCLASS \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_STANDARD_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_RPC_WRAPPERS \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_INCLASS \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Bomberman_Source_Bomberman_BombermanCharacter_h_13_GENERATED_BODY \
+#define Bomberman_Source_Bomberman_BombermanCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_INCLASS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_BombermanCharacter_h_13_ENHANCED_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_INCLASS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_BombermanCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

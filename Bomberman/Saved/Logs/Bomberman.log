@@ -1,4 +1,4 @@
-﻿Log file open, 01/25/18 09:13:56
+﻿Log file open, 01/25/18 18:09:32
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Bomberman
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-154052682) SRandInit(-154052682).
+LogInit: Display: RandInit(-349687126) SRandInit(-349687126).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.174815
+LogStats: Stats thread started at 0.185407
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,92 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Warning: Module file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Binaries/Win64/UE4Editor-Bomberman-58.dll is missing. This is likely a stale module that must be recompiled.
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Warning: Incompatible or missing module: UE4Editor-Bomberman.dll
-Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Bomberman Development Win64 -project="C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Bomberman.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build.
-@progress push 5%
-@progress pop
-Deleting old hot reload file: "C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Binaries\Win64\UE4Editor-Bomberman-35.dll".
-Deleting old hot reload file: "C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Binaries\Win64\UE4Editor-Bomberman-35.pdb".
-Performing 1 actions (4 in parallel)
-[1/1] Link UE4Editor-Bomberman.dll
-   Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman.suppressed.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman.suppressed.exp
-Total build time: 1.39 seconds (Local executor: 0.61 seconds)
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Binaries/Win64/UE4Editor-Bomberman.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Binaries/Win64/UE4Editor-Bomberman-8737.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -280,387 +195,425 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.25-09.14.02:732][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.25-09.14.02:732][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.25-09.14.02:745][  0]LogInit: Computer: DESKTOP-3HBJQFL
-[2018.01.25-09.14.02:745][  0]LogInit: User: Luke
-[2018.01.25-09.14.02:745][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.25-09.14.02:745][  0]LogInit: High frequency timer resolution =2.533208 MHz
-[2018.01.25-09.14.02:746][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.01.25-09.14.02:746][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.25-09.14.02:746][  0]LogMemory: Process Physical Memory: 277.33 MB used, 277.33 MB peak
-[2018.01.25-09.14.02:746][  0]LogMemory: Process Virtual Memory: 270.53 MB used, 270.53 MB peak
-[2018.01.25-09.14.02:746][  0]LogMemory: Physical Memory: 7280.85 MB used,  9022.07 MB free, 16302.92 MB total
-[2018.01.25-09.14.02:746][  0]LogMemory: Virtual Memory: 726.25 MB used,  9022.07 MB free, 134217728.00 MB total
-[2018.01.25-09.14.02:902][  0]LogInit: Using OS detected language (en-US).
-[2018.01.25-09.14.02:902][  0]LogInit: Using OS detected locale (en-US).
-[2018.01.25-09.14.02:905][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.01.25-09.14.03:311][  0]LogInit: Setting process to per monitor DPI aware
-[2018.01.25-09.14.03:556][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.25-09.14.03:596][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.01.25-09.14.03:596][  0]LogD3D11RHI:       4055/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.01.25-09.14.03:601][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.01.25-09.14.03:601][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.01.25-09.14.03:603][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.25-09.14.03:603][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.25-09.14.03:603][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.25-09.14.03:611][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.25-09.14.03:611][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.01.25-09.14.03:611][  0]LogWindows: EnumDisplayDevices:
-[2018.01.25-09.14.03:611][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.01.25-09.14.03:611][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.01.25-09.14.03:611][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.01.25-09.14.03:611][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.25-09.14.03:611][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.01.25-09.14.03:611][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.25-09.14.03:611][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.25-09.14.03:611][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2018.01.25-09.14.03:635][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.25-09.14.03:652][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.01.25-09.14.03:653][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Intermediate/Shaders/WorkingDirectory/9164/).
-[2018.01.25-09.14.03:653][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luke/AppData/Local/Temp/UnrealShaderWorkingDir/E55EC50940186423E3117490368B162E/'.
-[2018.01.25-09.14.03:653][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.25-09.14.04:617][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.25-09.14.04:675][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.25-09.14.04:741][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.25-09.14.04:797][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.25-09.14.04:852][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.25-09.14.04:910][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.25-09.14.04:970][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.25-09.14.05:022][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.25-09.14.05:068][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.25-09.14.05:122][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.25-09.14.05:173][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.25-09.14.05:226][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.25-09.14.05:278][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.25-09.14.05:330][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.25-09.14.05:442][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.25-09.14.05:442][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.25-09.14.05:494][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.25-09.14.05:537][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.25-09.14.05:633][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.25-09.14.05:663][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.25-09.14.05:717][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.25-09.14.05:770][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.25-09.14.05:822][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.25-09.14.05:887][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.25-09.14.05:887][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.25-09.14.06:387][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.25-09.14.06:458][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.25-09.14.06:458][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.01.25-09.14.06:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.25-09.14.06:459][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.25-09.14.06:459][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.25-09.14.06:459][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.25-09.14.06:475][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.25-09.14.06:487][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.25-09.14.06:497][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.25-09.14.06:497][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.25-09.14.06:498][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.25-09.14.06:498][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.25-09.14.06:884][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.25-09.14.07:255][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.25-09.14.07:297][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.25-09.14.07:297][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.25-09.14.07:297][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.01.25-09.14.07:297][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.01.25-09.14.07:297][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.01.25-09.14.07:327][  0]LogNetVersion: Bomberman , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2909264662)
-[2018.01.25-09.14.07:486][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2018.01.25-09.14.07:990][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.069168 seconds
-[2018.01.25-09.14.07:996][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.01.25-09.14.07:996][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.01.25-09.14.07:996][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.25-09.14.08:052][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.25-09.14.10:930][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.25-09.14.10:979][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.25-09.14.11:743][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.25-09.14.12:208][  0]SourceControl: Source control is disabled
-[2018.01.25-09.14.12:208][  0]SourceControl: Source control is disabled
-[2018.01.25-09.14.12:266][  0]SourceControl: Source control is disabled
-[2018.01.25-09.14.12:325][  0]SourceControl: Source control is disabled
-[2018.01.25-09.14.13:175][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.25-09.14.13:478][  0]LogOcInput: OculusInput pre-init called
-[2018.01.25-09.14.13:774][  0]LogEngine: Initializing Engine...
-[2018.01.25-09.14.13:776][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.25-09.14.13:980][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.25-09.14.13:980][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.25-09.14.14:119][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.25-09.14.14:130][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.25-09.14.14:146][  0]LogInit: FAudioDevice initialized.
-[2018.01.25-09.14.14:236][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.25-09.14.14:249][  0]LogInit: Texture streaming: Enabled
-[2018.01.25-09.14.14:359][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.25-09.14.14:359][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={AB365A32-4C9C-77EF-33A2-DF94CE943174}
-[2018.01.25-09.14.14:511][  0]LogInit: Transaction tracking system initialized
-[2018.01.25-09.14.14:857][  0]BlueprintLog: New page: Editor Load
-[2018.01.25-09.14.15:762][  0]LocalizationService: Localization service is disabled
-[2018.01.25-09.14.16:560][  0]LogConsoleResponse: Display: 
-[2018.01.25-09.14.16:736][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.25-09.14.16:736][  0]LogCook: Display: Mobile HDR setting 1
-[2018.01.25-09.14.16:736][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.01.25-09.14.16:763][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/' took 0.01s
-[2018.01.25-09.14.18:018][  0]SourceControl: Source control is disabled
-[2018.01.25-09.14.18:019][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.25-09.14.18:019][  0]LightingResults: New page: Lighting Build
-[2018.01.25-09.14.18:065][  0]MapCheck: New page: Map Check
-[2018.01.25-09.14.18:065][  0]LightingResults: New page: Lighting Build
-[2018.01.25-09.14.18:603][  0]LogAIModule: Creating AISystem for world Bomberman_Level
-[2018.01.25-09.14.18:607][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.25-09.14.18:619][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.25-09.14.18:676][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.051ms to complete.
-[2018.01.25-09.14.18:676][  0]LogFileHelpers: Loading map 'Bomberman_Level' took 0.657
-[2018.01.25-09.14.18:734][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.25-09.14.18:819][  0]LogCollectionManager: Loaded 0 collections in 0.001535 seconds
-[2018.01.25-09.14.18:902][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Collections/' took 0.01s
-[2018.01.25-09.14.18:902][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Developers/Luke/Collections/' took 0.01s
-[2018.01.25-09.14.18:902][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Collections/' took 0.01s
-[2018.01.25-09.14.18:902][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.01.25-09.14.18:913][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2370 classes and 521 folders.
-[2018.01.25-09.14.18:990][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.01.25-09.14.19:027][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.01.25-09.14.19:081][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.01.25-09.14.19:163][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.25-09.14.19:166][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.25-09.14.19:175][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.25-09.14.19:293][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.01.25-09.14.19:461][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.01.25-09.14.19:461][  0]LogLoad: (Engine Initialization) Total time: 24.15 seconds
-[2018.01.25-09.14.19:461][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.01.25-09.14.19:461][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.01.25-09.14.19:461][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.01.25-09.14.19:498][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.25-09.14.19:535][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.25-09.14.19:567][  1]LogAssetRegistry: Asset discovery search completed in 12.1020 seconds
-[2018.01.25-09.14.19:569][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.01.25-09.14.19:569][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
-[2018.01.25-09.22.22:815][519]LogHotReload: New module detected: UE4Editor-Bomberman-5451-Win64-DebugGame.dll
-[2018.01.25-09.22.23:495][522]LogHotReload: Starting Hot-Reload from IDE
-[2018.01.25-09.22.23:499][522]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.25-09.22.23:590][522]LogClass: MapRow HotReload.
-[2018.01.25-09.22.23:595][522]LogContentBrowser: Native class hierarchy updated for 'Bomberman' in 0.0010 seconds. Added 7 classes and 2 folders.
-[2018.01.25-09.22.23:597][522]Display: HotReload successful (27 functions remapped  1 scriptstructs remapped)
-[2018.01.25-09.22.23:675][522]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2372 classes and 525 folders.
-[2018.01.25-09.22.23:679][522]Display: HotReload took  0.2s.
-[2018.01.25-09.22.59:482][629]LogHotReload: New module detected: UE4Editor-Bomberman-5073-Win64-DebugGame.dll
-[2018.01.25-09.23.00:496][633]LogHotReload: Starting Hot-Reload from IDE
-[2018.01.25-09.23.00:576][633]LogClass: MapRow HotReload.
-[2018.01.25-09.23.00:579][633]LogContentBrowser: Native class hierarchy updated for 'Bomberman' in 0.0006 seconds. Added 7 classes and 2 folders.
-[2018.01.25-09.23.00:581][633]Display: HotReload successful (27 functions remapped  1 scriptstructs remapped)
-[2018.01.25-09.23.00:629][633]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2372 classes and 525 folders.
-[2018.01.25-09.23.00:633][633]Display: HotReload took  0.1s.
-[2018.01.25-09.23.03:409][717]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.01.25-09.23.03:413][717]Candidate modules for hot reload:
-[2018.01.25-09.23.03:413][717]  Bomberman
-[2018.01.25-09.23.03:414][717]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Bomberman -ModuleWithSuffix Bomberman 8793 Win64 Development -editorrecompile -canskiplink "C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Bomberman.uproject" ]
-[2018.01.25-09.23.03:424][717]Warning: Starting HotReload took  0.0s.
-[2018.01.25-09.23.05:836][829]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
-[2018.01.25-09.23.06:602][829]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.25-09.23.06:671][829]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.01.25-09.23.06:845][830]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.01.25-09.23.07:493][863]CompilerResultsLog: New page: Compilation - Jan 25, 2018, 9:23:07 AM
-[2018.01.25-09.23.07:493][863]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
-[2018.01.25-09.23.07:493][863]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.01.25-09.23.07:494][863]CompilerResultsLog: Compiling game modules for hot reload
-[2018.01.25-09.23.07:494][863]CompilerResultsLog: Performing 4 actions (4 in parallel)
-[2018.01.25-09.23.07:494][863]CompilerResultsLog: [2/4] Resource PCLaunch.rc
-[2018.01.25-09.23.07:494][863]CompilerResultsLog: BombermanGameModeBase.cpp
-[2018.01.25-09.23.07:494][863]CompilerResultsLog: [3/4] Link UE4Editor-Bomberman-8793.dll
-[2018.01.25-09.23.07:494][863]CompilerResultsLog: [4/4] Link UE4Editor-Bomberman-8793.lib
-[2018.01.25-09.23.07:494][863]CompilerResultsLog:    Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-8793.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-8793.exp
-[2018.01.25-09.23.07:494][863]CompilerResultsLog:    Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-8793.suppressed.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-8793.suppressed.exp
-[2018.01.25-09.23.07:494][863]CompilerResultsLog: Total build time: 3.82 seconds (Local executor: 2.52 seconds)
-[2018.01.25-09.23.07:494][863]LogMainFrame: MainFrame: Module compiling took 4.084 seconds
-[2018.01.25-09.23.07:582][863]LogClass: MapRow HotReload.
-[2018.01.25-09.23.07:586][863]LogContentBrowser: Native class hierarchy updated for 'Bomberman' in 0.0006 seconds. Added 7 classes and 2 folders.
-[2018.01.25-09.23.07:588][863]Display: HotReload successful (27 functions remapped  1 scriptstructs remapped)
-[2018.01.25-09.23.07:887][863]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2372 classes and 525 folders.
-[2018.01.25-09.23.07:887][863]Display: HotReload took  4.5s.
-[2018.01.25-09.23.24:271][ 85]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.25-09.23.24:333][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.25-09.23.24:333][ 85]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 9:23:24 AM)
-[2018.01.25-09.23.24:334][ 85]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
-[2018.01.25-09.23.24:335][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001110s)
-[2018.01.25-09.23.24:335][ 85]LogAIModule: Creating AISystem for world Bomberman_Level
-[2018.01.25-09.23.24:336][ 85]LogPlayLevel: PIE: World Init took: (0.000696s)
-[2018.01.25-09.23.24:336][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002304s)
-[2018.01.25-09.23.24:395][ 85]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.25-09.23.24:409][ 85]LogInit: FAudioDevice initialized.
-[2018.01.25-09.23.24:460][ 85]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
-[2018.01.25-09.23.24:462][ 85]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-09.23.24
-[2018.01.25-09.23.24:462][ 85]LogWorld: Bringing up level for play took: 0.000788
-[2018.01.25-09.23.24:525][ 85]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.01.25-09.23.24:527][ 85]LogTemp: Warning: Beginning Bomberman game...
-[2018.01.25-09.23.28:191][ 85]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 3.035
-[2018.01.25-09.23.28:200][ 85]LogScript: Warning: Accessed None trying to read property Red Player
+[2018.01.25-18.09.34:547][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-18.09.34:547][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.25-18.09.34:561][  0]LogInit: Computer: DESKTOP-3HBJQFL
+[2018.01.25-18.09.34:561][  0]LogInit: User: Luke
+[2018.01.25-18.09.34:561][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.25-18.09.34:561][  0]LogInit: High frequency timer resolution =2.533208 MHz
+[2018.01.25-18.09.34:561][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.25-18.09.34:561][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.25-18.09.34:561][  0]LogMemory: Process Physical Memory: 273.14 MB used, 273.14 MB peak
+[2018.01.25-18.09.34:561][  0]LogMemory: Process Virtual Memory: 271.93 MB used, 271.93 MB peak
+[2018.01.25-18.09.34:561][  0]LogMemory: Physical Memory: 6920.65 MB used,  9382.27 MB free, 16302.92 MB total
+[2018.01.25-18.09.34:561][  0]LogMemory: Virtual Memory: 679.72 MB used,  9382.27 MB free, 134217728.00 MB total
+[2018.01.25-18.09.35:018][  0]LogInit: Using OS detected language (en-US).
+[2018.01.25-18.09.35:018][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.25-18.09.35:020][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.25-18.09.35:438][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.25-18.09.35:729][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.25-18.09.35:770][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.01.25-18.09.35:770][  0]LogD3D11RHI:       4055/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.25-18.09.35:775][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.01.25-18.09.35:775][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.25-18.09.35:776][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.25-18.09.35:776][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.25-18.09.35:776][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.25-18.09.35:785][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.25-18.09.35:785][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.01.25-18.09.35:785][  0]LogWindows: EnumDisplayDevices:
+[2018.01.25-18.09.35:785][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.01.25-18.09.35:786][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.25-18.09.35:786][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.25-18.09.35:786][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.25-18.09.35:786][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.01.25-18.09.35:786][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.25-18.09.35:786][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.25-18.09.35:786][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.01.25-18.09.35:810][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.25-18.09.35:830][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.25-18.09.35:830][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Intermediate/Shaders/WorkingDirectory/30416/).
+[2018.01.25-18.09.35:831][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luke/AppData/Local/Temp/UnrealShaderWorkingDir/510519C04F64EB08C81E0B872E1F3478/'.
+[2018.01.25-18.09.35:831][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.25-18.09.36:844][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.25-18.09.36:895][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.25-18.09.36:947][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.25-18.09.37:001][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.25-18.09.37:055][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.25-18.09.37:116][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.25-18.09.37:168][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.25-18.09.37:231][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.25-18.09.37:292][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.25-18.09.37:342][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.25-18.09.37:394][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.25-18.09.37:444][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.25-18.09.37:499][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.25-18.09.37:552][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.25-18.09.37:665][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.25-18.09.37:665][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.25-18.09.37:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.25-18.09.37:763][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.25-18.09.37:858][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.25-18.09.37:889][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.25-18.09.37:941][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.25-18.09.37:998][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.25-18.09.38:051][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.25-18.09.38:105][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.25-18.09.38:105][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.25-18.09.38:578][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.25-18.09.38:654][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.25-18.09.38:654][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.25-18.09.38:655][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.25-18.09.38:655][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.25-18.09.38:655][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.25-18.09.38:655][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.25-18.09.38:671][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.25-18.09.38:683][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.25-18.09.38:693][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.25-18.09.38:693][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.25-18.09.38:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-18.09.38:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-18.09.39:087][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-18.09.39:468][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.25-18.09.39:512][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.25-18.09.39:512][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.25-18.09.39:512][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.25-18.09.39:512][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.25-18.09.39:512][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.25-18.09.39:540][  0]LogNetVersion: Bomberman , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2909264662)
+[2018.01.25-18.09.39:713][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2018.01.25-18.09.40:243][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.074983 seconds
+[2018.01.25-18.09.40:249][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.01.25-18.09.40:249][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.01.25-18.09.40:249][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.25-18.09.40:308][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.25-18.09.43:108][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.25-18.09.43:152][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.25-18.09.43:959][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.25-18.09.44:411][  0]SourceControl: Source control is disabled
+[2018.01.25-18.09.44:411][  0]SourceControl: Source control is disabled
+[2018.01.25-18.09.44:463][  0]SourceControl: Source control is disabled
+[2018.01.25-18.09.44:518][  0]SourceControl: Source control is disabled
+[2018.01.25-18.09.45:390][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.25-18.09.45:669][  0]LogOcInput: OculusInput pre-init called
+[2018.01.25-18.09.45:954][  0]LogEngine: Initializing Engine...
+[2018.01.25-18.09.45:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.25-18.09.46:161][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.25-18.09.46:161][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.25-18.09.46:297][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.25-18.09.46:309][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-18.09.46:346][  0]LogInit: FAudioDevice initialized.
+[2018.01.25-18.09.46:434][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Luke/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.25-18.09.46:446][  0]LogInit: Texture streaming: Enabled
+[2018.01.25-18.09.46:549][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.25-18.09.46:549][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={306E07F6-4D0E-9CBB-8CDA-888540BCD948}
+[2018.01.25-18.09.46:686][  0]LogInit: Transaction tracking system initialized
+[2018.01.25-18.09.47:012][  0]BlueprintLog: New page: Editor Load
+[2018.01.25-18.09.47:978][  0]LocalizationService: Localization service is disabled
+[2018.01.25-18.09.48:756][  0]LogConsoleResponse: Display: 
+[2018.01.25-18.09.48:929][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.25-18.09.48:929][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.25-18.09.48:930][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.25-18.09.48:955][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/' took 0.01s
+[2018.01.25-18.09.50:166][  0]SourceControl: Source control is disabled
+[2018.01.25-18.09.50:166][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Maps/Bomberman_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.25-18.09.50:167][  0]LightingResults: New page: Lighting Build
+[2018.01.25-18.09.50:210][  0]MapCheck: New page: Map Check
+[2018.01.25-18.09.50:210][  0]LightingResults: New page: Lighting Build
+[2018.01.25-18.09.50:766][  0]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-18.09.50:770][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.25-18.09.50:783][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.25-18.09.50:844][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.714ms to complete.
+[2018.01.25-18.09.50:844][  0]LogFileHelpers: Loading map 'Bomberman_Level' took 0.677
+[2018.01.25-18.09.50:902][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.25-18.09.50:985][  0]LogCollectionManager: Loaded 0 collections in 0.001524 seconds
+[2018.01.25-18.09.51:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/Collections/' took 0.01s
+[2018.01.25-18.09.51:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Developers/Luke/Collections/' took 0.01s
+[2018.01.25-18.09.51:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Collections/' took 0.01s
+[2018.01.25-18.09.51:073][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.25-18.09.51:084][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2370 classes and 521 folders.
+[2018.01.25-18.09.51:172][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.01.25-18.09.51:219][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.01.25-18.09.51:270][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.25-18.09.51:368][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.25-18.09.51:372][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.25-18.09.51:380][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.25-18.09.51:485][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.25-18.09.51:677][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.25-18.09.51:677][  0]LogLoad: (Engine Initialization) Total time: 19.75 seconds
+[2018.01.25-18.09.51:677][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.25-18.09.51:677][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.25-18.09.51:677][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.25-18.09.51:712][  0]LogAssetRegistry: Asset discovery search completed in 12.0211 seconds
+[2018.01.25-18.09.51:714][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.25-18.09.51:714][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2018.01.25-18.09.51:717][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.25-18.09.51:756][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-18.10.56:333][583]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.01.25-18.11.09:400][286]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.01.25-18.11.14:682][603]SourceControl: Source control is disabled
+[2018.01.25-18.11.16:857][733]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.01.25-18.14.21:013][881]LogHotReload: New module detected: UE4Editor-Bomberman-5053.dll
+[2018.01.25-18.14.21:696][884]LogHotReload: Starting Hot-Reload from IDE
+[2018.01.25-18.14.21:699][884]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-18.14.21:805][884]LogClass: MapRow HotReload.
+[2018.01.25-18.14.21:808][884]LogContentBrowser: Native class hierarchy updated for 'Bomberman' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2018.01.25-18.14.21:809][884]Display: HotReload successful (27 functions remapped  1 scriptstructs remapped)
+[2018.01.25-18.14.21:890][884]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2372 classes and 525 folders.
+[2018.01.25-18.14.21:895][884]Display: HotReload took  0.2s.
+[2018.01.25-18.14.32:380][426]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-18.14.32:428][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-18.14.32:428][426]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 6:14:32 PM)
+[2018.01.25-18.14.32:428][426]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-18.14.32:430][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001177s)
+[2018.01.25-18.14.32:430][426]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-18.14.32:430][426]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2018.01.25-18.14.32:430][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002015s)
+[2018.01.25-18.14.32:446][426]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-18.14.32:460][426]LogInit: FAudioDevice initialized.
+[2018.01.25-18.14.32:505][426]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-18.14.32:510][426]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-18.14.32
+[2018.01.25-18.14.32:511][426]LogWorld: Bringing up level for play took: 0.001500
+[2018.01.25-18.14.32:590][426]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.01.25-18.14.32:592][426]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-18.14.32:641][426]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level -0.514
+[2018.01.25-18.14.32:652][426]LogScript: Warning: Accessed None trying to read property Red Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.23.28:200][ 85]LogScript: Warning: Accessed None trying to read property Red Player
+[2018.01.25-18.14.32:652][426]LogScript: Warning: Accessed None trying to read property Red Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.23.28:200][ 85]LogScript: Warning: Accessed None trying to read property Blue Player
+[2018.01.25-18.14.32:652][426]LogScript: Warning: Accessed None trying to read property Blue Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.23.28:201][ 85]LogScript: Warning: Accessed None trying to read property Blue Player
+[2018.01.25-18.14.32:652][426]LogScript: Warning: Accessed None trying to read property Blue Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.23.34:004][365]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:200][740]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.23.34:004][365]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:200][740]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.23.34:018][366]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:216][741]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.23.34:018][366]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:216][741]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.23.34:035][367]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:232][742]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.23.34:035][367]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:232][742]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.23.34:051][368]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:248][743]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.23.34:052][368]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:249][743]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.23.34:068][369]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:266][744]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.23.34:068][369]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:266][744]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.23.34:085][370]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:282][745]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.23.34:085][370]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:282][745]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.23.34:103][371]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+[2018.01.25-18.14.38:298][746]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_HUD_C_0
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.24.56:725][936]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.25-09.24.56:749][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.25-09.24.56:749][936]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 9:24:56 AM)
-[2018.01.25-09.24.56:749][936]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
-[2018.01.25-09.24.56:750][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
-[2018.01.25-09.24.56:750][936]LogAIModule: Creating AISystem for world Bomberman_Level
-[2018.01.25-09.24.56:751][936]LogPlayLevel: PIE: World Init took: (0.000599s)
-[2018.01.25-09.24.56:751][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.001995s)
-[2018.01.25-09.24.56:773][936]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.25-09.24.56:786][936]LogInit: FAudioDevice initialized.
-[2018.01.25-09.24.56:823][936]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
-[2018.01.25-09.24.56:824][936]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-09.24.56
-[2018.01.25-09.24.56:824][936]LogWorld: Bringing up level for play took: 0.000675
-[2018.01.25-09.24.56:826][936]LogTemp: Warning: Beginning Bomberman game...
-[2018.01.25-09.24.56:873][936]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level -0.283
-[2018.01.25-09.24.56:910][936]LogScript: Warning: Accessed None trying to read property Red Player
+[2018.01.25-18.14.38:397][752]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2018.01.25-18.14.45:358][166]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2018.01.25-18.14.49:680][413]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2018.01.25-18.14.54:659][705]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2018.01.25-18.16.16:856][638]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.01.25-18.16.17:601][638]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-18.16.17:602][638]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.25-18.16.32:303][118]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.25-18.18.29:345][260]BlueprintLog: New page: Compile BP_WinScreen
+[2018.01.25-18.18.29:940][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WinScreen" FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset" SILENT=true
+[2018.01.25-18.18.29:994][281]LogSavePackage: Save=44.91ms
+[2018.01.25-18.18.29:994][281]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_WinScreen2D5A8915450827914DC7D1A2F401E76E.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset'
+[2018.01.25-18.18.29:999][281]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset
+[2018.01.25-18.20.40:278][983]BlueprintLog: New page: Compile BP_Bomberman_GameMode
+[2018.01.25-18.20.41:259][  6]LogSavePackage: Save=57.28ms
+[2018.01.25-18.20.41:259][  6]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_Bomberman_GameModeE99AAE2C4D7193432B8ACC8DB1A4F7C6.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset'
+[2018.01.25-18.20.41:263][  6]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset
+[2018.01.25-18.20.43:931][157]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-18.20.43:948][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-18.20.43:948][157]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 6:20:43 PM)
+[2018.01.25-18.20.43:948][157]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-18.20.43:949][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001129s)
+[2018.01.25-18.20.43:950][157]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-18.20.43:950][157]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2018.01.25-18.20.43:950][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002022s)
+[2018.01.25-18.20.43:973][157]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-18.20.43:986][157]LogInit: FAudioDevice initialized.
+[2018.01.25-18.20.44:017][157]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-18.20.44:018][157]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-18.20.44
+[2018.01.25-18.20.44:018][157]LogWorld: Bringing up level for play took: 0.000598
+[2018.01.25-18.20.44:020][157]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-18.20.44:071][157]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.915
+[2018.01.25-18.20.44:099][157]LogScript: Warning: Accessed None trying to read property Red Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.24.56:910][936]LogScript: Warning: Accessed None trying to read property Red Player
+[2018.01.25-18.20.44:099][157]LogScript: Warning: Accessed None trying to read property Red Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.24.56:910][936]LogScript: Warning: Accessed None trying to read property Blue Player
+[2018.01.25-18.20.44:099][157]LogScript: Warning: Accessed None trying to read property Blue Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.24.56:910][936]LogScript: Warning: Accessed None trying to read property Blue Player
+[2018.01.25-18.20.44:099][157]LogScript: Warning: Accessed None trying to read property Blue Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.25.08:706][640]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.25-09.25.08:726][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.25-09.25.08:726][640]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 9:25:08 AM)
-[2018.01.25-09.25.08:726][640]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
-[2018.01.25-09.25.08:727][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000996s)
-[2018.01.25-09.25.08:728][640]LogAIModule: Creating AISystem for world Bomberman_Level
-[2018.01.25-09.25.08:728][640]LogPlayLevel: PIE: World Init took: (0.000769s)
-[2018.01.25-09.25.08:728][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002012s)
-[2018.01.25-09.25.08:749][640]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.25-09.25.08:761][640]LogInit: FAudioDevice initialized.
-[2018.01.25-09.25.08:792][640]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
-[2018.01.25-09.25.08:794][640]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-09.25.08
-[2018.01.25-09.25.08:794][640]LogWorld: Bringing up level for play took: 0.000591
-[2018.01.25-09.25.08:795][640]LogTemp: Warning: Beginning Bomberman game...
-[2018.01.25-09.25.08:843][640]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level -0.313
-[2018.01.25-09.25.08:879][640]LogScript: Warning: Accessed None trying to read property Red Player
+[2018.01.25-18.20.47:334][347]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.20.47:334][347]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.20.47:350][348]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.20.47:350][348]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.20.47:367][349]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.20.47:367][349]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.20.47:384][350]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.20.47:384][350]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.20.47:400][351]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.20.47:400][351]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.20.47:416][352]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.20.47:417][352]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.20.47:433][353]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_HUD_C_1
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.20.47:532][359]PIE: Warning: This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2018.01.25-18.21.22:735][409]LogEditorTransaction: Undo Delete current selection
+[2018.01.25-18.21.23:221][436]LogEditorTransaction: Undo Move Node
+[2018.01.25-18.21.23:726][466]LogEditorTransaction: Undo Create Pin Link
+[2018.01.25-18.21.24:368][504]LogEditorTransaction: Undo Move Node
+[2018.01.25-18.21.24:920][537]LogEditorTransaction: Undo Move Node
+[2018.01.25-18.21.25:361][563]LogEditorTransaction: Undo Create Pin Link
+[2018.01.25-18.21.25:848][592]LogEditorTransaction: Undo Add Node
+[2018.01.25-18.21.27:368][683]LogEditorTransaction: Redo Add Node
+[2018.01.25-18.21.27:557][694]LogEditorTransaction: Redo Create Pin Link
+[2018.01.25-18.21.27:677][701]LogEditorTransaction: Redo Move Node
+[2018.01.25-18.21.27:798][708]LogEditorTransaction: Redo Move Node
+[2018.01.25-18.21.27:901][714]LogEditorTransaction: Redo Create Pin Link
+[2018.01.25-18.21.28:338][740]LogEditorTransaction: Redo Move Node
+[2018.01.25-18.21.28:508][750]LogEditorTransaction: Redo Delete current selection
+[2018.01.25-18.23.05:280][495]BlueprintLog: New page: Compile BP_WinScreen
+[2018.01.25-18.23.05:904][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_WinScreen" FILE="../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset" SILENT=true
+[2018.01.25-18.23.05:951][529]LogSavePackage: Save=44.12ms
+[2018.01.25-18.23.05:951][529]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_WinScreen5A568D334F641B73E710F7A32295AA66.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset'
+[2018.01.25-18.23.05:955][529]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_WinScreen.uasset
+[2018.01.25-18.23.07:944][645]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-18.23.07:952][645]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.25-18.23.07:970][645]LogPlayLevel: [PlayLevel] Compiling BP_Bomberman_GameMode before play...
+[2018.01.25-18.23.08:176][645]LogPlayLevel: PlayLevel: Blueprint regeneration took 224 ms (1 blueprints)
+[2018.01.25-18.23.08:176][645]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 6:23:08 PM)
+[2018.01.25-18.23.08:176][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
+[2018.01.25-18.23.08:177][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001133s)
+[2018.01.25-18.23.08:178][645]LogAIModule: Creating AISystem for world Bomberman_Level
+[2018.01.25-18.23.08:178][645]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.01.25-18.23.08:178][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.002046s)
+[2018.01.25-18.23.08:198][645]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-18.23.08:212][645]LogInit: FAudioDevice initialized.
+[2018.01.25-18.23.08:242][645]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
+[2018.01.25-18.23.08:243][645]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-18.23.08
+[2018.01.25-18.23.08:244][645]LogWorld: Bringing up level for play took: 0.000692
+[2018.01.25-18.23.08:246][645]LogTemp: Warning: Beginning Bomberman game...
+[2018.01.25-18.23.08:297][645]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 1.141
+[2018.01.25-18.23.08:305][645]LogScript: Warning: Accessed None trying to read property Red Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.25.08:879][640]LogScript: Warning: Accessed None trying to read property Red Player
+[2018.01.25-18.23.08:305][645]LogScript: Warning: Accessed None trying to read property Red Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.25.08:879][640]LogScript: Warning: Accessed None trying to read property Blue Player
+[2018.01.25-18.23.08:305][645]LogScript: Warning: Accessed None trying to read property Blue Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.25.08:879][640]LogScript: Warning: Accessed None trying to read property Blue Player
+[2018.01.25-18.23.08:305][645]LogScript: Warning: Accessed None trying to read property Blue Player
 	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.25.11:254][779]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.25-09.25.11:275][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.25-09.25.11:275][779]PIE: New page: PIE session: Bomberman_Level (Jan 25, 2018, 9:25:11 AM)
-[2018.01.25-09.25.11:275][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Bomberman_Level
-[2018.01.25-09.25.11:276][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001052s)
-[2018.01.25-09.25.11:276][779]LogAIModule: Creating AISystem for world Bomberman_Level
-[2018.01.25-09.25.11:277][779]LogPlayLevel: PIE: World Init took: (0.000606s)
-[2018.01.25-09.25.11:277][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Bomberman_Level.Bomberman_Level to /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level (0.001965s)
-[2018.01.25-09.25.11:297][779]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.25-09.25.11:308][779]LogInit: FAudioDevice initialized.
-[2018.01.25-09.25.11:341][779]LogLoad: Game class is 'BP_Bomberman_GameMode_C'
-[2018.01.25-09.25.11:342][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Bomberman_Level.Bomberman_Level up for play (max tick rate 60) at 2018.01.25-09.25.11
-[2018.01.25-09.25.11:342][779]LogWorld: Bringing up level for play took: 0.000544
-[2018.01.25-09.25.11:343][779]LogTemp: Warning: Beginning Bomberman game...
-[2018.01.25-09.25.11:389][779]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Bomberman_Level 0.234
-[2018.01.25-09.25.11:421][779]LogScript: Warning: Accessed None trying to read property Red Player
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+[2018.01.25-18.23.11:503][823]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
-[2018.01.25-09.25.11:421][779]LogScript: Warning: Accessed None trying to read property Red Player
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
+[2018.01.25-18.23.11:503][823]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
 	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
-[2018.01.25-09.25.11:421][779]LogScript: Warning: Accessed None trying to read property Blue Player
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.25.11:421][779]LogScript: Warning: Accessed None trying to read property Blue Player
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.26.21:420][978]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.26.21:420][978]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.26.21:432][979]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.26.21:432][979]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.26.21:448][980]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.26.21:448][980]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.26.21:465][981]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.26.21:465][981]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.26.21:482][982]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.26.21:482][982]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.26.21:498][983]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.26.21:498][983]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Range:003D
-[2018.01.25-09.26.21:515][984]LogScript: Warning: Attempted to access BP_Bomberman_P2_C_0 via property Blue Player, but BP_Bomberman_P2_C_0 is pending kill
-	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.BP_HUD_C_3
-	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Blue Bombs:003D
-[2018.01.25-09.29.38:573][196]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-18.23.11:520][824]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.23.11:520][824]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.23.11:536][825]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.23.11:536][825]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.23.11:553][826]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.23.11:553][826]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.23.11:569][827]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.23.11:569][827]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.23.11:586][828]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.23.11:586][828]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Range:003D
+[2018.01.25-18.23.11:603][829]LogScript: Warning: Attempted to access BP_Bomberman_C_0 via property Red Player, but BP_Bomberman_C_0 is pending kill
+	BP_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_HUD_C_2
+	Function /Game/Blueprints/BP_HUD.BP_HUD_C:Get Red Bombs:003D
+[2018.01.25-18.23.27:416][751]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.01.25-18.23.27:419][751]Candidate modules for hot reload:
+[2018.01.25-18.23.27:420][751]  Bomberman
+[2018.01.25-18.23.27:420][751]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Bomberman -ModuleWithSuffix Bomberman 3994 Win64 Development -editorrecompile -canskiplink "C:/Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Bomberman.uproject" ]
+[2018.01.25-18.23.27:424][751]Warning: Starting HotReload took  0.0s.
+[2018.01.25-18.23.30:935][957]LogSavePackage: Save=51.98ms
+[2018.01.25-18.23.30:936][957]LogSavePackage: Moving '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Saved/BP_Bomberman_GameModeB18F5C5345E9E38E0A5B879BDED4BE48.tmp' to '../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset'
+[2018.01.25-18.23.30:940][957]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Luke/Documents/Unreal Projects/bomberman-ue4/Bomberman/Content/Blueprints/BP_Bomberman_GameMode.uasset
+[2018.01.25-18.23.33:520][112]CompilerResultsLog: New page: Compilation - Jan 25, 2018, 6:23:33 PM
+[2018.01.25-18.23.33:520][112]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.01.25-18.23.33:520][112]CompilerResultsLog: Creating makefile for hot reloading Bomberman (modules to compile have changed)
+[2018.01.25-18.23.33:520][112]CompilerResultsLog: Compiling game modules for hot reload
+[2018.01.25-18.23.33:520][112]CompilerResultsLog: Target is up to date
+[2018.01.25-18.23.33:520][112]CompilerResultsLog: Total build time: 5.87 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.01.25-18.23.33:520][112]LogMainFrame: MainFrame: Module compiling took 6.104 seconds
+[2018.01.25-18.23.33:788][112]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2372 classes and 525 folders.
+[2018.01.25-18.23.33:788][112]Display: HotReload took  6.4s.
+[2018.01.25-18.24.04:036][658]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Bomberman_Level' took 0.075

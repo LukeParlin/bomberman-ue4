@@ -98,6 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "Tile.h" },
 				{ "ModuleRelativePath", "Tile.h" },
+				{ "ToolTip", "*      The base tile class, which forms the foundation of the map grid\n*\n*      Each tile is a simple floor, but can contain childObjects which affect gameplay:\n*      > Unbreakable Walls\n*      > Breakable Walls\n*      > Bombs\n*      > Powerups" },
 			};
 #endif
 #if WITH_METADATA
@@ -128,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeTile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATile, 3185134983);
+	IMPLEMENT_CLASS(ATile, 3854841056);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATile(Z_Construct_UClass_ATile, &ATile::StaticClass, TEXT("/Script/Bomberman"), TEXT("ATile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

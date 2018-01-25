@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -7,6 +5,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "BombermanCharacter.generated.h"
 
+//The class which represents the player characters
 UCLASS()
 class BOMBERMAN_API ABombermanCharacter : public ACharacter
 {
@@ -16,18 +15,23 @@ class BOMBERMAN_API ABombermanCharacter : public ACharacter
 //MEMBER VARIABLES
 //////////////////
 protected:
+	//This player's ID
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 playerID;
 
+	//How many bombs this player is holding (editable for testing purposes)
 	UPROPERTY(Editanywhere, BlueprintReadWrite)
-	int32 numBombs = 1;
+	int32 numBombs = 1; 
 
+	//How large an explosion this player's bombs cause (editable for testing purposes)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 bombRange = 1;
 
+	//How fast this player moves
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float moveSpeed;
 
+	//We store a pointer to the Character's MoveComponent so that we can directly set its speed
 	UPROPERTY()
 	UCharacterMovementComponent* MoveComponent;
 
@@ -65,11 +69,11 @@ public:
 	UFUNCTION()
 	void SetPlayerID(int32 id);
 
-	//Get the player's number of bombs
+	//Get the player's number of bombs (can't be set in C++)
 	UFUNCTION()
 	int32 GetNumBombs();
 
-	//Get the player's bomb range
+	//Get the player's bomb range (can't be set in C++)
 	UFUNCTION()
 	int32 GetBombRange();
 

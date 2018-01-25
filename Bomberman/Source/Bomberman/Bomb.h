@@ -1,14 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "TileObject.h"
 #include "Bomb.generated.h"
 
-/**
- * 
- */
+//The Bomb class, from which the Bomb Blueprint inherits
 UCLASS()
 class BOMBERMAN_API ABomb : public ATileObject
 {
@@ -19,13 +15,13 @@ class BOMBERMAN_API ABomb : public ATileObject
 //////////////////
 protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	int32 playerID;
+	int32 playerID;	//The ID of the player this bomb belongs to
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	int32 explosionRadius;
+	int32 explosionRadius; //How large an explosion this bomb causes
 
 public:
-	// Sets default values for this actor's properties
+	//Sets default values for this actor's properties
 	ABomb();
 	
 	/////////////////////////

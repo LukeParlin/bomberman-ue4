@@ -14,7 +14,7 @@ class ATileObject;
 #endif
 #define BOMBERMAN_Tile_generated_h
 
-#define Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS \
+#define Bomberman_Source_Bomberman_Tile_h_20_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetChildObject) \
 	{ \
@@ -34,7 +34,7 @@ class ATileObject;
 	}
 
 
-#define Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_Tile_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetChildObject) \
 	{ \
@@ -54,7 +54,7 @@ class ATileObject;
 	}
 
 
-#define Bomberman_Source_Bomberman_Tile_h_15_INCLASS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_Tile_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATile(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ATile(); \
@@ -64,7 +64,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_Tile_h_15_INCLASS \
+#define Bomberman_Source_Bomberman_Tile_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesATile(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ATile(); \
@@ -74,7 +74,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_Tile_h_15_STANDARD_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_Tile_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATile) \
@@ -87,7 +87,7 @@ private: \
 public:
 
 
-#define Bomberman_Source_Bomberman_Tile_h_15_ENHANCED_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_Tile_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATile(ATile&&); \
@@ -98,29 +98,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATile)
 
 
-#define Bomberman_Source_Bomberman_Tile_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Bomberman_Source_Bomberman_Tile_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__childObject() { return STRUCT_OFFSET(ATile, childObject); }
 
 
-#define Bomberman_Source_Bomberman_Tile_h_12_PROLOG
-#define Bomberman_Source_Bomberman_Tile_h_15_GENERATED_BODY_LEGACY \
+#define Bomberman_Source_Bomberman_Tile_h_17_PROLOG
+#define Bomberman_Source_Bomberman_Tile_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_Tile_h_15_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS \
-	Bomberman_Source_Bomberman_Tile_h_15_INCLASS \
-	Bomberman_Source_Bomberman_Tile_h_15_STANDARD_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_Tile_h_20_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_Tile_h_20_RPC_WRAPPERS \
+	Bomberman_Source_Bomberman_Tile_h_20_INCLASS \
+	Bomberman_Source_Bomberman_Tile_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Bomberman_Source_Bomberman_Tile_h_15_GENERATED_BODY \
+#define Bomberman_Source_Bomberman_Tile_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_Tile_h_15_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_Tile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_Tile_h_15_INCLASS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_Tile_h_15_ENHANCED_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_Tile_h_20_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_Tile_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_Tile_h_20_INCLASS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_Tile_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

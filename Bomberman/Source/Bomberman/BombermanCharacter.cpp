@@ -1,7 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #include "BombermanCharacter.h"
-
 
 // Sets default values
 ABombermanCharacter::ABombermanCharacter()
@@ -16,9 +13,11 @@ void ABombermanCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//Store the MoveComponent for use later on
 	MoveComponent = GetCharacterMovement();
 	if (MoveComponent)
 	{
+		//Store our initial speed, taken directly from the MoveComponent
 		moveSpeed = MoveComponent->MaxWalkSpeed;
 	}
 }
@@ -66,6 +65,7 @@ float ABombermanCharacter::GetMoveSpeed()
 
 void ABombermanCharacter::SetMoveSpeed(float speed)
 {
+	//This is a special modifier function, as it ALSO sets the speed of the MoveComponent
 	moveSpeed = speed;
 	MoveComponent->MaxWalkSpeed = speed;
 }

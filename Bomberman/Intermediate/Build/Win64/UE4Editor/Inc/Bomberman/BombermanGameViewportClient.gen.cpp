@@ -39,6 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanGameViewportClient() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "BombermanGameViewportClient.h" },
 				{ "ModuleRelativePath", "BombermanGameViewportClient.h" },
+				{ "ToolTip", "!! We are overwriting the GameViewportClient class to pass kayboard input to ALL PlayerControllers !!\n!! This idea / code comes from this guide on the Unreal Wiki: https://wiki.unrealengine.com/Local_Multiplayer_Tips" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -59,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanGameViewportClient() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBombermanGameViewportClient, 3790404247);
+	IMPLEMENT_CLASS(UBombermanGameViewportClient, 3133342064);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBombermanGameViewportClient(Z_Construct_UClass_UBombermanGameViewportClient, &UBombermanGameViewportClient::StaticClass, TEXT("/Script/Bomberman"), TEXT("UBombermanGameViewportClient"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBombermanGameViewportClient);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

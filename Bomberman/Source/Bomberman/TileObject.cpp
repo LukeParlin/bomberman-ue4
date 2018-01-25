@@ -1,7 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #include "TileObject.h"
-
 
 // Sets default values
 ATileObject::ATileObject()

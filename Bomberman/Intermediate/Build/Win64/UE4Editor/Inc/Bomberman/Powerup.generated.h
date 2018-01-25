@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BOMBERMAN_Powerup_generated_h
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_RPC_WRAPPERS \
+#define Bomberman_Source_Bomberman_Powerup_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetSpeedIncrease) \
 	{ \
@@ -40,7 +40,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_Powerup_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetSpeedIncrease) \
 	{ \
@@ -67,7 +67,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_INCLASS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_Powerup_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPowerup(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_APowerup(); \
@@ -77,7 +77,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_INCLASS \
+#define Bomberman_Source_Bomberman_Powerup_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAPowerup(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_APowerup(); \
@@ -87,7 +87,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_STANDARD_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_Powerup_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APowerup(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APowerup) \
@@ -100,7 +100,7 @@ private: \
 public:
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_ENHANCED_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_Powerup_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APowerup(APowerup&&); \
@@ -111,31 +111,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APowerup); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APowerup)
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Bomberman_Source_Bomberman_Powerup_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__bombIncrease() { return STRUCT_OFFSET(APowerup, bombIncrease); } \
 	FORCEINLINE static uint32 __PPO__rangeIncrease() { return STRUCT_OFFSET(APowerup, rangeIncrease); } \
-	FORCEINLINE static uint32 __PPO__speedIncrease() { return STRUCT_OFFSET(APowerup, speedIncrease); }
+	FORCEINLINE static uint32 __PPO__speedIncrease() { return STRUCT_OFFSET(APowerup, speedIncrease); } \
+	FORCEINLINE static uint32 __PPO__remoteBomb() { return STRUCT_OFFSET(APowerup, remoteBomb); }
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_12_PROLOG
-#define Bomberman_Source_Bomberman_Powerup_h_15_GENERATED_BODY_LEGACY \
+#define Bomberman_Source_Bomberman_Powerup_h_16_PROLOG
+#define Bomberman_Source_Bomberman_Powerup_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_Powerup_h_15_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_Powerup_h_15_RPC_WRAPPERS \
-	Bomberman_Source_Bomberman_Powerup_h_15_INCLASS \
-	Bomberman_Source_Bomberman_Powerup_h_15_STANDARD_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_Powerup_h_19_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_Powerup_h_19_RPC_WRAPPERS \
+	Bomberman_Source_Bomberman_Powerup_h_19_INCLASS \
+	Bomberman_Source_Bomberman_Powerup_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Bomberman_Source_Bomberman_Powerup_h_15_GENERATED_BODY \
+#define Bomberman_Source_Bomberman_Powerup_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_Powerup_h_15_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_Powerup_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_Powerup_h_15_INCLASS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_Powerup_h_15_ENHANCED_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_Powerup_h_19_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_Powerup_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_Powerup_h_19_INCLASS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_Powerup_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

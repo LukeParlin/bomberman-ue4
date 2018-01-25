@@ -2,9 +2,9 @@
   Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
   BombermanGameModeBase.cpp
-  [2/3] Link UE4Editor-Bomberman-5073-Win64-DebugGame.dll
-  [3/3] Link UE4Editor-Bomberman-5073-Win64-DebugGame.lib
-     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Bomberman-5073-Win64-DebugGame.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Bomberman-5073-Win64-DebugGame.exp
-     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Bomberman-5073-Win64-DebugGame.suppressed.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Bomberman-5073-Win64-DebugGame.suppressed.exp
-  Deploying BombermanEditor Win64 DebugGame...
-  Total build time: 3.31 seconds (Local executor: 2.03 seconds)
+  [2/3] Link UE4Editor-Bomberman-5053.dll
+  [3/3] Link UE4Editor-Bomberman-5053.lib
+     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5053.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5053.exp
+     Creating library C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5053.suppressed.lib and object C:\Users\Luke\Documents\Unreal Projects\bomberman-ue4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman-5053.suppressed.exp
+  Deploying BombermanEditor Win64 Development...
+  Total build time: 3.41 seconds (Local executor: 2.02 seconds)

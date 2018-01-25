@@ -90,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
-				{ "ToolTip", "Get the player's bomb range" },
+				{ "ToolTip", "Get the player's bomb range (can't be set in C++)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ABombermanCharacter, "GetBombRange", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(BombermanCharacter_eventGetBombRange_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -138,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
-				{ "ToolTip", "Get the player's number of bombs" },
+				{ "ToolTip", "Get the player's number of bombs (can't be set in C++)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ABombermanCharacter, "GetNumBombs", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(BombermanCharacter_eventGetNumBombs_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -232,9 +232,9 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_ABombermanCharacter_AddBomb, "AddBomb" }, // 658362713
 				{ &Z_Construct_UFunction_ABombermanCharacter_DropBomb, "DropBomb" }, // 2819391134
-				{ &Z_Construct_UFunction_ABombermanCharacter_GetBombRange, "GetBombRange" }, // 993723999
+				{ &Z_Construct_UFunction_ABombermanCharacter_GetBombRange, "GetBombRange" }, // 1974696434
 				{ &Z_Construct_UFunction_ABombermanCharacter_GetMoveSpeed, "GetMoveSpeed" }, // 693971317
-				{ &Z_Construct_UFunction_ABombermanCharacter_GetNumBombs, "GetNumBombs" }, // 2415603128
+				{ &Z_Construct_UFunction_ABombermanCharacter_GetNumBombs, "GetNumBombs" }, // 3356303192
 				{ &Z_Construct_UFunction_ABombermanCharacter_GetPlayerID, "GetPlayerID" }, // 2092703435
 				{ &Z_Construct_UFunction_ABombermanCharacter_SetMoveSpeed, "SetMoveSpeed" }, // 1556764035
 				{ &Z_Construct_UFunction_ABombermanCharacter_SetPlayerID, "SetPlayerID" }, // 1068397535
@@ -244,12 +244,14 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 				{ "HideCategories", "Navigation" },
 				{ "IncludePath", "BombermanCharacter.h" },
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
+				{ "ToolTip", "The class which represents the player characters" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveComponent_MetaData[] = {
 				{ "EditInline", "true" },
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
+				{ "ToolTip", "We store a pointer to the Character's MoveComponent so that we can directly set its speed" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MoveComponent = { UE4CodeGen_Private::EPropertyClass::Object, "MoveComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000080008, 1, nullptr, STRUCT_OFFSET(ABombermanCharacter, MoveComponent), Z_Construct_UClass_UCharacterMovementComponent_NoRegister, METADATA_PARAMS(NewProp_MoveComponent_MetaData, ARRAY_COUNT(NewProp_MoveComponent_MetaData)) };
@@ -257,6 +259,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_moveSpeed_MetaData[] = {
 				{ "Category", "BombermanCharacter" },
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
+				{ "ToolTip", "How fast this player moves" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_moveSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "moveSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020005, 1, nullptr, STRUCT_OFFSET(ABombermanCharacter, moveSpeed), METADATA_PARAMS(NewProp_moveSpeed_MetaData, ARRAY_COUNT(NewProp_moveSpeed_MetaData)) };
@@ -264,6 +267,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bombRange_MetaData[] = {
 				{ "Category", "BombermanCharacter" },
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
+				{ "ToolTip", "How large an explosion this player's bombs cause (editable for testing purposes)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_bombRange = { UE4CodeGen_Private::EPropertyClass::Int, "bombRange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABombermanCharacter, bombRange), METADATA_PARAMS(NewProp_bombRange_MetaData, ARRAY_COUNT(NewProp_bombRange_MetaData)) };
@@ -271,6 +275,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_numBombs_MetaData[] = {
 				{ "Category", "BombermanCharacter" },
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
+				{ "ToolTip", "How many bombs this player is holding (editable for testing purposes)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_numBombs = { UE4CodeGen_Private::EPropertyClass::Int, "numBombs", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABombermanCharacter, numBombs), METADATA_PARAMS(NewProp_numBombs_MetaData, ARRAY_COUNT(NewProp_numBombs_MetaData)) };
@@ -278,6 +283,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerID_MetaData[] = {
 				{ "Category", "BombermanCharacter" },
 				{ "ModuleRelativePath", "BombermanCharacter.h" },
+				{ "ToolTip", "This player's ID" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_playerID = { UE4CodeGen_Private::EPropertyClass::Int, "playerID", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, STRUCT_OFFSET(ABombermanCharacter, playerID), METADATA_PARAMS(NewProp_playerID_MetaData, ARRAY_COUNT(NewProp_playerID_MetaData)) };
@@ -306,7 +312,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABombermanCharacter, 1537342171);
+	IMPLEMENT_CLASS(ABombermanCharacter, 2930162330);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABombermanCharacter(Z_Construct_UClass_ABombermanCharacter, &ABombermanCharacter::StaticClass, TEXT("/Script/Bomberman"), TEXT("ABombermanCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABombermanCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

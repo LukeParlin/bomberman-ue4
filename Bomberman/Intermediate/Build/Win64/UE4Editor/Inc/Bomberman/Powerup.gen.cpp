@@ -47,7 +47,7 @@ void EmptyLinkFunctionForGeneratedCodePowerup() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "Powerup.h" },
-				{ "ToolTip", "Get the number of bombs granted by this powerup" },
+				{ "ToolTip", "Get the number of bombs granted by this powerup (this is set in the editor, and shouldn't be set in code)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_APowerup, "GetBombIncrease", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Powerup_eventGetBombIncrease_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodePowerup() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "Powerup.h" },
-				{ "ToolTip", "Get the extra bomb range granted by this powerup" },
+				{ "ToolTip", "Get the extra bomb range granted by this powerup (this is set in the editor, and shouldn't be set in code)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_APowerup, "GetRangeIncrease", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Powerup_eventGetRangeIncrease_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodePowerup() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "ModuleRelativePath", "Powerup.h" },
-				{ "ToolTip", "Get the increase in speed granted by this powerup" },
+				{ "ToolTip", "Get the increase in speed granted by this powerup (this is set in the editor, and shouldn't be set in code)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_APowerup, "GetSpeedIncrease", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(Powerup_eventGetSpeedIncrease_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -117,38 +117,51 @@ void EmptyLinkFunctionForGeneratedCodePowerup() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_Bomberman,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_APowerup_GetBombIncrease, "GetBombIncrease" }, // 1348516432
-				{ &Z_Construct_UFunction_APowerup_GetRangeIncrease, "GetRangeIncrease" }, // 2015981758
-				{ &Z_Construct_UFunction_APowerup_GetSpeedIncrease, "GetSpeedIncrease" }, // 2042684724
+				{ &Z_Construct_UFunction_APowerup_GetBombIncrease, "GetBombIncrease" }, // 3165935046
+				{ &Z_Construct_UFunction_APowerup_GetRangeIncrease, "GetRangeIncrease" }, // 2712116508
+				{ &Z_Construct_UFunction_APowerup_GetSpeedIncrease, "GetSpeedIncrease" }, // 1228768648
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "Powerup.h" },
 				{ "ModuleRelativePath", "Powerup.h" },
+				{ "ToolTip", "*      The base Powerup class, from which all Powerup Blueprints inherit\n*\n*      I have designed the powerups so that any powerup is both combinable and scalable.\n*      In theory, we could create some super, hybrid powerups.\n*\n*      I chose this option so that all powerup blueprint logic would remain in the base class.\n*      The Powerup Blueprints which derive from this class are mosrlt cosmetic, but do hold their own different data." },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_remoteBomb_MetaData[] = {
+				{ "Category", "Powerup" },
+				{ "ModuleRelativePath", "Powerup.h" },
+				{ "ToolTip", "How much this powerup increases players' speed" },
+			};
+#endif
+			auto NewProp_remoteBomb_SetBit = [](void* Obj){ ((APowerup*)Obj)->remoteBomb = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_remoteBomb = { UE4CodeGen_Private::EPropertyClass::Bool, "remoteBomb", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(APowerup), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_remoteBomb_SetBit)>::SetBit, METADATA_PARAMS(NewProp_remoteBomb_MetaData, ARRAY_COUNT(NewProp_remoteBomb_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_speedIncrease_MetaData[] = {
 				{ "Category", "Powerup" },
 				{ "ModuleRelativePath", "Powerup.h" },
+				{ "ToolTip", "How much range this powerup adds to players' bombs" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speedIncrease = { UE4CodeGen_Private::EPropertyClass::Float, "speedIncrease", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000005, 1, nullptr, STRUCT_OFFSET(APowerup, speedIncrease), METADATA_PARAMS(NewProp_speedIncrease_MetaData, ARRAY_COUNT(NewProp_speedIncrease_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speedIncrease = { UE4CodeGen_Private::EPropertyClass::Float, "speedIncrease", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000015, 1, nullptr, STRUCT_OFFSET(APowerup, speedIncrease), METADATA_PARAMS(NewProp_speedIncrease_MetaData, ARRAY_COUNT(NewProp_speedIncrease_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rangeIncrease_MetaData[] = {
 				{ "Category", "Powerup" },
 				{ "ModuleRelativePath", "Powerup.h" },
+				{ "ToolTip", "How many extra bomxs this powerup grants" },
 			};
 #endif
-			static const UE4CodeGen_Private::FIntPropertyParams NewProp_rangeIncrease = { UE4CodeGen_Private::EPropertyClass::Int, "rangeIncrease", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000005, 1, nullptr, STRUCT_OFFSET(APowerup, rangeIncrease), METADATA_PARAMS(NewProp_rangeIncrease_MetaData, ARRAY_COUNT(NewProp_rangeIncrease_MetaData)) };
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_rangeIncrease = { UE4CodeGen_Private::EPropertyClass::Int, "rangeIncrease", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000015, 1, nullptr, STRUCT_OFFSET(APowerup, rangeIncrease), METADATA_PARAMS(NewProp_rangeIncrease_MetaData, ARRAY_COUNT(NewProp_rangeIncrease_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bombIncrease_MetaData[] = {
 				{ "Category", "Powerup" },
 				{ "ModuleRelativePath", "Powerup.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FIntPropertyParams NewProp_bombIncrease = { UE4CodeGen_Private::EPropertyClass::Int, "bombIncrease", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000005, 1, nullptr, STRUCT_OFFSET(APowerup, bombIncrease), METADATA_PARAMS(NewProp_bombIncrease_MetaData, ARRAY_COUNT(NewProp_bombIncrease_MetaData)) };
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_bombIncrease = { UE4CodeGen_Private::EPropertyClass::Int, "bombIncrease", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000015, 1, nullptr, STRUCT_OFFSET(APowerup, bombIncrease), METADATA_PARAMS(NewProp_bombIncrease_MetaData, ARRAY_COUNT(NewProp_bombIncrease_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_remoteBomb,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_speedIncrease,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_rangeIncrease,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bombIncrease,
@@ -171,7 +184,7 @@ void EmptyLinkFunctionForGeneratedCodePowerup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APowerup, 3312795599);
+	IMPLEMENT_CLASS(APowerup, 2130638872);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APowerup(Z_Construct_UClass_APowerup, &APowerup::StaticClass, TEXT("/Script/Bomberman"), TEXT("APowerup"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APowerup);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

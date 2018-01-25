@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeBomberman_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Bomberman",
 				PKG_CompiledIn | 0x00000000,
-				0x9DB53089,
+				0xDC1052C6,
 				0x89C9C3E9,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

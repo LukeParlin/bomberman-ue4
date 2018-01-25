@@ -14,7 +14,7 @@ struct FIntPoint;
 #endif
 #define BOMBERMAN_TileObject_generated_h
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS \
+#define Bomberman_Source_Bomberman_TileObject_h_21_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetTileCoord) \
 	{ \
@@ -42,7 +42,7 @@ struct FIntPoint;
 	}
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_TileObject_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetTileCoord) \
 	{ \
@@ -70,7 +70,7 @@ struct FIntPoint;
 	}
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_INCLASS_NO_PURE_DECLS \
+#define Bomberman_Source_Bomberman_TileObject_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATileObject(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ATileObject(); \
@@ -80,7 +80,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_INCLASS \
+#define Bomberman_Source_Bomberman_TileObject_h_21_INCLASS \
 private: \
 	static void StaticRegisterNativesATileObject(); \
 	friend BOMBERMAN_API class UClass* Z_Construct_UClass_ATileObject(); \
@@ -90,7 +90,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_STANDARD_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_TileObject_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATileObject(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATileObject) \
@@ -103,7 +103,7 @@ private: \
 public:
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_ENHANCED_CONSTRUCTORS \
+#define Bomberman_Source_Bomberman_TileObject_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATileObject(ATileObject&&); \
@@ -114,30 +114,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATileObject); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATileObject)
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_PRIVATE_PROPERTY_OFFSET \
+#define Bomberman_Source_Bomberman_TileObject_h_21_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__isDestructible() { return STRUCT_OFFSET(ATileObject, isDestructible); } \
 	FORCEINLINE static uint32 __PPO__tileCoord() { return STRUCT_OFFSET(ATileObject, tileCoord); }
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_9_PROLOG
-#define Bomberman_Source_Bomberman_TileObject_h_12_GENERATED_BODY_LEGACY \
+#define Bomberman_Source_Bomberman_TileObject_h_18_PROLOG
+#define Bomberman_Source_Bomberman_TileObject_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_TileObject_h_12_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS \
-	Bomberman_Source_Bomberman_TileObject_h_12_INCLASS \
-	Bomberman_Source_Bomberman_TileObject_h_12_STANDARD_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_TileObject_h_21_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_TileObject_h_21_RPC_WRAPPERS \
+	Bomberman_Source_Bomberman_TileObject_h_21_INCLASS \
+	Bomberman_Source_Bomberman_TileObject_h_21_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Bomberman_Source_Bomberman_TileObject_h_12_GENERATED_BODY \
+#define Bomberman_Source_Bomberman_TileObject_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Bomberman_Source_Bomberman_TileObject_h_12_PRIVATE_PROPERTY_OFFSET \
-	Bomberman_Source_Bomberman_TileObject_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_TileObject_h_12_INCLASS_NO_PURE_DECLS \
-	Bomberman_Source_Bomberman_TileObject_h_12_ENHANCED_CONSTRUCTORS \
+	Bomberman_Source_Bomberman_TileObject_h_21_PRIVATE_PROPERTY_OFFSET \
+	Bomberman_Source_Bomberman_TileObject_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_TileObject_h_21_INCLASS_NO_PURE_DECLS \
+	Bomberman_Source_Bomberman_TileObject_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -126,12 +126,14 @@ void EmptyLinkFunctionForGeneratedCodeTileObject() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "TileObject.h" },
 				{ "ModuleRelativePath", "TileObject.h" },
+				{ "ToolTip", "*      The base Tile Object class from which all tile objects inherit\n*\n*      There are four main types of tile objects:\n*      > Unbreakable Walls\n*      > Breakable Walls\n*      > Bombs\n*      > Powerups" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_tileCoord_MetaData[] = {
 				{ "Category", "TileObject" },
 				{ "ModuleRelativePath", "TileObject.h" },
+				{ "ToolTip", "Whether this object should be destroyed when it's caught in a bomb explosion (can be set in the editor)" },
 			};
 #endif
 			static const UE4CodeGen_Private::FStructPropertyParams NewProp_tileCoord = { UE4CodeGen_Private::EPropertyClass::Struct, "tileCoord", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, STRUCT_OFFSET(ATileObject, tileCoord), Z_Construct_UScriptStruct_FIntPoint, METADATA_PARAMS(NewProp_tileCoord_MetaData, ARRAY_COUNT(NewProp_tileCoord_MetaData)) };
@@ -165,7 +167,7 @@ void EmptyLinkFunctionForGeneratedCodeTileObject() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATileObject, 235542477);
+	IMPLEMENT_CLASS(ATileObject, 2240135418);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATileObject(Z_Construct_UClass_ATileObject, &ATileObject::StaticClass, TEXT("/Script/Bomberman"), TEXT("ATileObject"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATileObject);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

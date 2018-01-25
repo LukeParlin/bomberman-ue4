@@ -150,12 +150,14 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "Bomb.h" },
 				{ "ModuleRelativePath", "Bomb.h" },
+				{ "ToolTip", "The Bomb class, from which the Bomb Blueprint inherits" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionRadius_MetaData[] = {
 				{ "Category", "Bomb" },
 				{ "ModuleRelativePath", "Bomb.h" },
+				{ "ToolTip", "The ID of the player this bomb belongs to" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_explosionRadius = { UE4CodeGen_Private::EPropertyClass::Int, "explosionRadius", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020005, 1, nullptr, STRUCT_OFFSET(ABomb, explosionRadius), METADATA_PARAMS(NewProp_explosionRadius_MetaData, ARRAY_COUNT(NewProp_explosionRadius_MetaData)) };
@@ -188,7 +190,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABomb, 3251168050);
+	IMPLEMENT_CLASS(ABomb, 1615013584);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABomb(Z_Construct_UClass_ABomb, &ABomb::StaticClass, TEXT("/Script/Bomberman"), TEXT("ABomb"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABomb);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

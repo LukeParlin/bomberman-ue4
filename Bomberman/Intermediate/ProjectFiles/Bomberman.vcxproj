@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{AC951CE8-AF82-4826-8889-484E79D5D62D}</ProjectGuid>
+		<ProjectGuid>{450E33D0-05BB-474D-9FEE-B0ECDEC03DBC}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>Bomberman</RootNamespace>
 		<PlatformToolset>v140</PlatformToolset>

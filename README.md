@@ -1,10 +1,14 @@
 # bomberman-ue4
 
-##Project intro:
+## Project intro:
 
 This is a mostly-complete, completely playable Bomberman game created from scratch in Unreal Engine 4 using only Epic's Starter Content. With the exception of my GameViewportClient class, all the code was written by me over the course of 5 days.
 
-###NOTE: My game world is generated entirely in code, rather than in the editor, and relies on the *BP_Bomberman_GameMode* Blueprint, which inherits from my custom *BombermanGameModeBase* class. If you run the game and nothing happens, you will need to manually set some properties of BP_Bomberman_GameMode inside the editor. Occasionally, when the project gets recompiled, the editor properties get erased. Please set the following inherited properties from the BombermanGameModeBase class inside BP_Bomberman_GameMode:
+### Controls:
+**Player 1:** Movement — 'WASD', Drop Bomb — 'X'
+**Player 2:** Movement — 'JLIK', Drop Bomb — 'M'
+
+### NOTE: My game world is generated entirely in code, rather than in the editor, and relies on the *BP_Bomberman_GameMode* Blueprint, which inherits from my custom *BombermanGameModeBase* class. If you run the game and nothing happens, you will need to manually set some properties of BP_Bomberman_GameMode inside the editor. Occasionally, when the project gets recompiled, the editor properties get erased. Please set the following inherited properties from the BombermanGameModeBase class inside BP_Bomberman_GameMode:
 
 | Property               | Value               | 
 | ---------------------- | ------------------- | 
@@ -26,7 +30,7 @@ For Player Spawn Offset and Map Size, any odd numbers should work. For the Map, 
 
 Also, make sure that BP_Bomberman_GameMode is set as the GameMode Override in the world settings of Bomberman_Level!
 
-##Game code heirarchy:
+## Game code heirarchy:
 
 The main game class — essentially the entry point into my Bomberman game — is the ABombermanGameModeBase class, which inherits from AGameModeBase. ABombermanGameModeBase holds pointers to most of the other Actors in the scene, and handles the core game logic.
 
@@ -55,8 +59,8 @@ ABombermanGameModeBase is responsible for containing the player characters, map 
              |                      |                 |                |                 |                     |
       +--------------+         +---------+        +-------+       +----------+      +---------+      +-------------------+
       | BP_Bomberman |         | BP_Tile |        | ABomb |       | APowerup |      | BP_Wall |      | BP_Wall_Breakable |
-      +------^-------+         +---------+        +---^---+	      +----^-----+      +---------+      +-------------------+
-	        /_\                                      /_\              /_\				
+      +------^-------+         +---------+        +---^---+       +----^-----+      +---------+      +-------------------+
+            /_\                                      /_\              /_\				
              |                                        |                |
              |                                        |                |
              |                                        |                |
@@ -67,9 +71,9 @@ ABombermanGameModeBase is responsible for containing the player characters, map 
                                                                        |
                                                                        +------------------------+-------------------------+
                                                                        |                        |                         |
-                                                              +-----------------+      +------------------+      +------------------+
-                                                              | BP_Powerup_Bomb |      | BP_Powerup_Range |      | BP_Powerup_Speed |
-                                                              +-----------------+      +------------------+      +------------------+
+                                                              +-----------------+      +------------------+      +------------------+      
+                                                              | BP_Powerup_Bomb |      | BP_Powerup_Range |      | BP_Powerup_Speed |      
+                                                              +-----------------+      +------------------+      +------------------+      
 ```
 
 Much of the gameplay logic is contained within Blueprints. The two BP_Bomberman Blueprints are responsible for handling their own input, and also for collecting Powerups. Breakable walls are responsible for spawning Powerups (or, at least, telling the BombermanGameModeBase to spawn a new Powerup). Similarly, Bombs know to explode themselves, but then tell the GameMode to propagate the explosion outwards. The UI Blueprints handle their own data retrieval, and contain a button to reset the game after a player has won. Finally, the BP_Bomberman_GameMode Blueprint is responsible for keeping score, and for checking for win conditions.
@@ -77,7 +81,7 @@ Much of the gameplay logic is contained within Blueprints. The two BP_Bomberman 
 **Finally, there is one known bug:**
 Occasionally, when resetting the game after a player has won (or drawn), the game may crash. I believe this is caused by a bomb explosion, or chain explosion happening AFTER the world map has been reset. According to the crash logs, some TileObject is looking for tiles on a map which no longer exists. I haven't been able to consistently reproduce the crash, so I haven't fully debugged it. Most of the time, even with crazy explosions going off, everything works fine! :)
 
-##Postmortem and next steps
+## Postmortem and next steps
 
 If I were to continue working on this game, the first feature I would add is the Remote Bomb powerup. Sadly, this is the only feature on the list I didn't include in my game. I spent the majority of my time on map generation, and in the end, didn't have time to implement the last powerup. I also spent a bit of time playing with the particle, material, and curve editors... whoops!
 
@@ -85,7 +89,7 @@ If I were to implement the Remote Bombs, I would use a finite state machine to t
 
 Overall I enjoyed this test tremendously. I didn't realize it at the beginning, but creating Bomberman requires a fairly comprehensive knowledge of the game engine. I overestimated its simplicity, and it made for a nice challenge. Little things, like sending input to two PlayerControllers, or spawning bombs inside the player with no collision, caught me by surprice. It was a nice opportunity to re-familiarize myself with Unreal.
 
-##Time breakdown
+## Time breakdown
 
 | Day        | Hours | 
 | -----------| ------| 

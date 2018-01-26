@@ -6,6 +6,7 @@ This is a mostly-complete, completely playable Bomberman game created from scrat
 
 ### Controls:
 **Player 1:** Movement — 'WASD', Drop Bomb — 'X'
+
 **Player 2:** Movement — 'JLIK', Drop Bomb — 'M'
 
 ### NOTE: If the level is empty when you play the game...

@@ -8,7 +8,8 @@ This is a mostly-complete, completely playable Bomberman game created from scrat
 **Player 1:** Movement — 'WASD', Drop Bomb — 'X'
 **Player 2:** Movement — 'JLIK', Drop Bomb — 'M'
 
-### NOTE: My game world is generated entirely in code, rather than in the editor, and relies on the *BP_Bomberman_GameMode* Blueprint, which inherits from my custom *BombermanGameModeBase* class. If you run the game and nothing happens, you will need to manually set some properties of BP_Bomberman_GameMode inside the editor. Occasionally, when the project gets recompiled, the editor properties get erased. Please set the following inherited properties from the BombermanGameModeBase class inside BP_Bomberman_GameMode:
+### NOTE: If the level is empty when you play the game...
+My game world is generated entirely in code, rather than in the editor, and relies on the *BP_Bomberman_GameMode* Blueprint, which inherits from my custom *BombermanGameModeBase* class. If you run the game and nothing happens, you will need to manually set some properties of BP_Bomberman_GameMode inside the editor. Occasionally, when the project gets recompiled, the editor properties get erased. Please set the following inherited properties from the BombermanGameModeBase class inside BP_Bomberman_GameMode:
 
 | Property               | Value               | 
 | ---------------------- | ------------------- | 

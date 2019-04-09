@@ -102,7 +102,7 @@ Overall I enjoyed this test tremendously. I didn't realize it at the beginning, 
 
 I've been working in Unity for the last two years, meaning this was my first project in Unreal for quite some time. Though initially I felt rusty, I quickly found my rhythm. In the end, I spent a full 20 hours on the project — partially due to re-familiarizing myself with unreal, but mostly because I wanted to improve some aspects of my game.
 
-Though we were sent the test on Tuesday 16/01, due to a busy week at work, I didn't begin development until Sunday 21/01. I worked for about an hour on Sunday, mostly planning how I would architect my game, but I did create the GIT repository, a blank Unreal project, and complete one or two small set-up steps.
+I began development Sunday 21/01. I worked for about an hour on Sunday, mostly planning how I would architect my game, but I did create the GIT repository, a blank Unreal project, and complete one or two small set-up steps.
 
 On Tuesday 23/01 I coded most of the game's core. I began by implementing the architecture I'd designed on Sunday: spawning the map on a grid of tiles, then placing game objects on top of those tiles. This worked out nicely — my map is fairly flexible, and can spawn at any arbitrary size. I also added in both players and their movement. Local multiplayer is a little funky in Unreal, but I found a solution on the [Unreal Wiki](https://wiki.unrealengine.com/Local_Multiplayer_Tips#Multiple_Players_on_the_Keyboard_.28C.2B.2B.29) which I used override the GameViewportClient so that it would send input to both PlayerControllers.
 
